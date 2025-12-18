@@ -61,7 +61,6 @@ if __name__ == '__main__':
     def benchmark(index):  
         dataset = data_list[index]
         if index == 1 : dataset = dataset.dropna()
-        #Attention a 'TMB' dans continuous_col!!!!
         elif index == 2 : dataset = heterogeneous_knn_imputation(dataset, continuous_cols=['Age', 'SPY'], out_dir=out_dir, file_name='distribution_mixed')
         elif index == 3 : dataset = heterogeneous_knn_imputation(dataset, continuous_cols = [], discrete_cols = dataset.columns.tolist(), out_dir=out_dir, file_name='distribution_discrete')
         is_discrete = is_discrete_list[index]

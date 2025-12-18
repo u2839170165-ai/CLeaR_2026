@@ -81,7 +81,7 @@ def is_SP_and_Tumor_connected(G):
 
 def edge_type(A, i, j):
     """
-    Renvoie le type d'arête pour la paire (i, j) dans la matrice A.
+    Return edge type for pair (i, j) in matrix A.
     Types :
         - 'none'
         - 'undirected'
@@ -96,21 +96,19 @@ def edge_type(A, i, j):
         return 'i->j'
     if A[i, j] == 0 and A[j, i] == 1:
         return 'j->i'
-    raise ValueError("Matrice invalide : valeurs non binaires.")
+    raise ValueError("Invalid matrix : non-binary values.")
 
 
 def structural_hamming_distance(A, B):
     """
-    Calcule la Structural Hamming Distance (SHD) entre deux graphes
-    partiellement dirigés donnés sous forme de matrices d'adjacence binaires.
+    Compute Strucutral Hamming distance between two graphs
     """
     if A.shape != B.shape:
-        raise ValueError("Les matrices doivent avoir la même taille.")
+        raise ValueError("Matrices must be of the same size.")
 
     n = A.shape[0]
     shd = 0
 
-    # On ne parcourt que i < j pour éviter de compter deux fois
     for i in range(n):
         for j in range(i + 1, n):
             type_A = edge_type(A, i, j)
@@ -181,8 +179,6 @@ def analyze_graph_stability_and_direction(graphs_list: list, labels=None):
         out_neighbors = np.array(list(G.successors(2)))
         smoking_out_degree_tumor = len(out_neighbors[out_neighbors<7])
         smoking_out_degree_sp = len(out_neighbors[out_neighbors>6])
-        #'Programmed Cell Death' Betweenness
-        #pcd_betweenness = nx.betweenness_centrality(G)[16]
         #Adjacency between Tumor_Vars and SP
         SP_and_Tumor_connected, adjacencies = is_SP_and_Tumor_connected(G)
         # Print concise summary
@@ -196,7 +192,6 @@ def analyze_graph_stability_and_direction(graphs_list: list, labels=None):
         print(SP_and_Tumor_connected)
         print(adjacencies)
 
-        #print(f"* PCD Betweenness: {pcd_betweenness}")
 
         results.append({
             'label': label,
@@ -208,7 +203,6 @@ def analyze_graph_stability_and_direction(graphs_list: list, labels=None):
             'directionality index': directionality_index,
             'smoking out-degree tumor': smoking_out_degree_tumor,
             'smoking out-degree sp': smoking_out_degree_sp,
-            #'pcd_betweenness': pcd_betweenness,
             'SP and Tumor connected': SP_and_Tumor_connected,
             'SP and Tumor connections': adjacencies,
             'skeleton_matrix': Skeleton_A,
@@ -394,7 +388,7 @@ def visualize_aggregate_adjacencies(adj_matrices_list: list, strategy: str, node
         ax = axes[idx]
         ax.set_title(f'Skeleton ({int(thresh*100)}% consensus)', fontsize=20)
         
-        # Colorer les nœuds : premiers 7 différemment si >= 7 nœuds au total
+        # Color the nodes: firsts 7 different if >= 7 nodes in total
         if num_nodes >= 7:
             node_colors = ["#6BE6FF" if i < 7 else palette_nodes[0] for i in range(num_nodes)]
         else:
@@ -410,7 +404,7 @@ def visualize_aggregate_adjacencies(adj_matrices_list: list, strategy: str, node
         ax = axes[idx + 2]
         ax.set_title(f'Directed edges ({int(thresh*100)}% consensus)', fontsize=20)
         
-        # Colorer les nœuds : premiers 7 différemment si >= 7 nœuds au total
+        # Color the nodes: firsts 7 different if >= 7 nodes in total
         if num_nodes >= 7:
             if num_nodes==19:
                 node_colors = ["#FFAB6B" if i < 7 else palette_nodes[1] for i in range(num_nodes)]
@@ -447,10 +441,6 @@ def visualize_aggregate_adjacencies(adj_matrices_list: list, strategy: str, node
             if consensus[i ,j] == consensus[j, i]:
                 consensus_u[i,j] = consensus[i,j]
                 consensus_u[j,i] = consensus[j,i]
-    print('--------------CONSENSUS' + strategy)
-    np.set_printoptions(precision=2, suppress=True)
-    print(consensus)
-    print(consensus_u)
     G_cons = nx.DiGraph(consensus)
     G_cons_u = nx.Graph(consensus_u)
     for i in range(num_nodes):
@@ -468,13 +458,11 @@ def visualize_aggregate_adjacencies(adj_matrices_list: list, strategy: str, node
                 if G_cons_u.has_edge(j, i): 
                     G_cons_u.remove_edge(j, i)
     print('G_cons_u', G_cons_u) 
-    # Récupérer les poids pour normaliser la couleur
+    # Get weights for coloring
     weights = nx.get_edge_attributes(G_cons, 'weight')
     edge_labels = {edge: f"{w:.1f}" for edge, w in weights.items()}
     w_values = np.array(list(weights.values()))
 
-    # Normalisation pour un gradient blanc→noir
-    # blanc (1,1,1) quand poids faible, noir (0,0,0) quand poids fort
     if len(w_values) > 0:
         w_min, w_max = w_values.min(), w_values.max()
         norm = (w_values - w_min) / (w_max - w_min + 1e-9)
@@ -482,7 +470,7 @@ def visualize_aggregate_adjacencies(adj_matrices_list: list, strategy: str, node
     else:
         colors = []
 
-    # Tracé du graphe
+    # Graph plot
     if num_nodes >7:
         plt.figure(figsize=(15, 15))
     else:
@@ -490,13 +478,13 @@ def visualize_aggregate_adjacencies(adj_matrices_list: list, strategy: str, node
     nx.draw_networkx_nodes(G_cons, pos, node_size=1000, node_color=node_colors)
     nx.draw_networkx_labels(G_cons, pos, labels={i: node_labels[i] for i in range(num_nodes)})
 
-    # Tracé des arêtes avec couleurs
+    # Edges plot with color
     #Directed
     nx.draw_networkx_edges(G_cons, pos, edge_color=colors, width=2, arrowsize=20)
     #Undirected
     nx.draw_networkx_edges(G_cons_u, pos, edge_color=colors, width=2, arrowsize=20)
 
-    # Affichage des poids
+    # Plot weights
     if show_edge_labels:
         nx.draw_networkx_edge_labels(G_cons, pos, edge_labels=edge_labels)
 
@@ -515,9 +503,9 @@ def visualize_aggregate_adjacencies(adj_matrices_list: list, strategy: str, node
     if num_nodes <8:
         fig, axes = plt.subplots(1, 2, figsize=(14, 6))
     # -------Comparison single graph vs consensus (PC chisq)----------
-    #Rodrigo's causal graph construction
-        Gd = nx.DiGraph()   # pour les arêtes dirigées
-        Gu = nx.Graph()     # pour les arêtes non dirigées
+    #single causal graph construction
+        Gd = nx.DiGraph()   # directed
+        Gu = nx.Graph()     # undirected
 
         Gd.add_edge(0, 5)
         Gu.add_edge(0, 3)
@@ -533,10 +521,10 @@ def visualize_aggregate_adjacencies(adj_matrices_list: list, strategy: str, node
         nx.draw_networkx_nodes(Gd, pos, node_color=node_colors[:-1], node_size=1000, ax=axes[0])
         nx.draw_networkx_labels(Gd, pos, ax=axes[0], labels={i: node_labels[i] for i in range(num_nodes-1)})
 
-        # Arêtes non dirigées
+        # directed edges
         nx.draw_networkx_edges(Gu, pos, ax=axes[0], width=2, edge_color = 'grey', style= 'dashed', min_source_margin=15,
         min_target_margin=15)
-        # Arêtes dirigées
+        # undirected edges
         nx.draw_networkx_edges(Gd, pos, ax=axes[0], width=2, edge_color="grey", arrows=True, arrowsize=20, min_source_margin=15,
         min_target_margin=15)
 
@@ -554,9 +542,8 @@ def visualize_aggregate_adjacencies(adj_matrices_list: list, strategy: str, node
     else:#Full data
         fig, axes = plt.subplots(1, 2, figsize=(20, 15))
     # -------Comparison single graph vs consensus (PC chisq)----------
-    #Rodrigo's causal graph construction
-        Gd = nx.DiGraph()   # pour les arêtes dirigées
-        Gu = nx.Graph()     # pour les arêtes non dirigées
+        Gd = nx.DiGraph()   
+        Gu = nx.Graph()  
 
         Gd.add_edge(0, 5)
         Gu.add_edge(0, 3)
@@ -584,10 +571,10 @@ def visualize_aggregate_adjacencies(adj_matrices_list: list, strategy: str, node
         nx.draw_networkx_nodes(G_cons, pos, node_color=node_colors, node_size=1000, ax=axes[0])
         nx.draw_networkx_labels(G_cons, pos, ax=axes[0], labels={n: node_labels[n] for n in range(num_nodes)})
 
-        # Arêtes non dirigées
+        
         nx.draw_networkx_edges(Gu, pos, ax=axes[0], width=2, edge_color = 'grey', style= 'dashed', min_source_margin=15,
         min_target_margin=15)
-        # Arêtes dirigées
+        
         nx.draw_networkx_edges(Gd, pos, ax=axes[0], width=2, edge_color="grey", arrows=True, arrowsize=20, min_source_margin=15,
         min_target_margin=15)
 
@@ -604,7 +591,7 @@ def visualize_aggregate_adjacencies(adj_matrices_list: list, strategy: str, node
         axes[1].axis("off")
     plt.tight_layout()
     if save_plots:
-        fname_png = out_path / f"PC_fisherz_vs_consensus_{strategy}_graphs.png"
+        fname_png = out_path / f"PC_fisherz_vs_consensus_{strategy}_graphs.png" #old name (not PC fisherz anymore)
         fname_pdf = out_path / f"PC_fisherz__vs_consensus_{strategy}_graphs.pdf"
         plt.savefig(fname_png, dpi=dpi, bbox_inches='tight')
         plt.savefig(fname_pdf, dpi=dpi, bbox_inches='tight')
@@ -678,7 +665,6 @@ def aggregate_and_visualize_results(Results: dict, node_labels=None, figsize=(14
     # 1) Boxplots for spectral radius, skeleton density, directionality index by strategy
     metrics = ['spectral radius', 'skeleton density', 'directionality index']
     plt.figure(figsize=(figsize[0], 5))
-    # Définir l'ordre des stratégies (basé sur leur première apparition dans les données)
     strategy_order = df['strategy'].unique().tolist()
     for i, m in enumerate(metrics, 1):
         plt.subplot(1, 3, i)
@@ -686,8 +672,8 @@ def aggregate_and_visualize_results(Results: dict, node_labels=None, figsize=(14
         plt.xticks(rotation=45, fontsize=10)
         plt.yticks(fontsize=10)
         plt.title(m, fontsize=20)
-        plt.xlabel('')  # Supprimer étiquette axe x
-        plt.ylabel('')  # Supprimer étiquette axe y
+        plt.xlabel('')  
+        plt.ylabel('') 
     plt.tight_layout()
     if save_plots:
         fname_png = out_path / f"metrics_boxplots.png"
@@ -703,8 +689,8 @@ def aggregate_and_visualize_results(Results: dict, node_labels=None, figsize=(14
     plt.figure(figsize=(8, 4))
     sns.barplot(x='strategy', y='is_strongly_connected', data=conn, palette='Set2', order=strategy_order)
     # plt.ylim(0, 1)
-    plt.xlabel('')  # Supprimer étiquette axe x
-    plt.ylabel('')  # Supprimer étiquette axe y
+    plt.xlabel('')  
+    plt.ylabel('')  
     plt.xticks(rotation=45, fontsize=12, ticks=range(len(strategy_order)),
     labels=[f"St.{i+1}" for i in range(len(strategy_order))])
     plt.yticks(fontsize=10)
@@ -728,7 +714,7 @@ def aggregate_and_visualize_results(Results: dict, node_labels=None, figsize=(14
             continue
         # compute mean adjacency (counts) across matrices
         mean_adj = np.mean(np.stack(mats, axis=0), axis=0)
-        # Limiter à une décimale
+        
         mean_adj = np.round(mean_adj, 1)
         mean_adjs[strat] = mean_adj
 
@@ -746,7 +732,7 @@ def aggregate_and_visualize_results(Results: dict, node_labels=None, figsize=(14
             row = idx // n_cols
             col = idx % n_cols
             ax = fig.add_subplot(gs[row, col])
-            ax.grid(False)  # Désactiver la grille
+            ax.grid(False) 
             axes.append(ax)
             num_nodes = mat.shape[0]
             # adaptive fonts and label visibility
@@ -782,11 +768,11 @@ def aggregate_and_visualize_results(Results: dict, node_labels=None, figsize=(14
                 ax.set_yticks(np.arange(num_nodes))
                 ax.set_yticklabels(ticks, fontsize=label_fontsize)
                 
-                # Afficher y ticks seulement pour la première colonne
+                # display y ticks only for first column
                 if col != 0:
                     ax.set_yticklabels([])
                 
-                # # Afficher x ticks seulement pour la dernière ligne
+                
                 # if row != n_rows - 1:
                 #     ax.set_xticklabels([])
                 ax.set_xticklabels([])
@@ -799,11 +785,10 @@ def aggregate_and_visualize_results(Results: dict, node_labels=None, figsize=(14
                 for (ii, jj), val in np.ndenumerate(mat):
                     if val != 0:
                         ax.text(jj, ii, f"{val:.1f}", ha='center', va='center', color='white' if val > 0.5 else 'black', fontsize=ann_font)
-        # Ajoute la colorbar comme subplot dédié
+        
         cax = fig.add_subplot(gs[:, -1])
-        # Utilise la première image pour la colorbar (toutes ont le même cmap et vmin/vmax)
         cbar = fig.colorbar(ims[0], cax=cax)
-        cbar.ax.tick_params(labelsize=20)  # Augmenter la taille de police de la colorbar
+        cbar.ax.tick_params(labelsize=20)
         plt.tight_layout(rect=[0, 0, 0.97, 1])
         if save_plots:
             fname_png = out_path / f"mean_adj.png"
@@ -855,7 +840,7 @@ def aggregate_and_visualize_results(Results: dict, node_labels=None, figsize=(14
         y="outdegree",
         hue="type",
         palette="Set2",
-        order=strategy_order   # si tu l’as défini
+        order=strategy_order  
     )
 
     plt.xlabel('')
@@ -876,7 +861,7 @@ def aggregate_and_visualize_results(Results: dict, node_labels=None, figsize=(14
         plt.show()
 
     # 6) Max 'Smoking' Out-degree
-    AGG = "max"      # ou "mean"
+    AGG = "max"      
 
     agg_df = df.groupby("strategy").agg({
         "smoking out-degree tumor": AGG,
@@ -902,7 +887,7 @@ def aggregate_and_visualize_results(Results: dict, node_labels=None, figsize=(14
         y="outdegree",
         hue="type",
         palette="Set2",
-        order=strategy_order   # si tu l’as défini
+        order=strategy_order 
     )
 
     plt.xlabel('')
@@ -932,8 +917,8 @@ def aggregate_and_visualize_results(Results: dict, node_labels=None, figsize=(14
         palette='Set2',
         order=strategy_order
         )
-        plt.xlabel('')  # Supprimer étiquette axe x
-        plt.ylabel('')  # Supprimer étiquette axe y
+        plt.xlabel('')  
+        plt.ylabel('') 
         plt.xticks(rotation=45, fontsize=10)
         plt.yticks(fontsize=10)
         plt.tight_layout()
@@ -956,8 +941,8 @@ def aggregate_and_visualize_results(Results: dict, node_labels=None, figsize=(14
         palette='Set2',
         order=strategy_order
         )
-        plt.xlabel('')  # Supprimer étiquette axe x
-        plt.ylabel('')  # Supprimer étiquette axe y
+        plt.xlabel('') 
+        plt.ylabel('')
         plt.xticks(rotation=45, fontsize=10)
         plt.yticks(fontsize=10)
         plt.tight_layout()
@@ -980,8 +965,8 @@ def aggregate_and_visualize_results(Results: dict, node_labels=None, figsize=(14
             palette='Set2',
             order=strategy_order
             )
-        plt.xlabel('')  # Supprimer étiquette axe x
-        plt.ylabel('')  # Supprimer étiquette axe y
+        plt.xlabel('')  
+        plt.ylabel('') 
         plt.xticks(rotation=45, fontsize=10)
         plt.yticks(fontsize=10)
         plt.tight_layout()
@@ -1011,7 +996,7 @@ def aggregate_and_visualize_results(Results: dict, node_labels=None, figsize=(14
             ax = axes[idx]
 
             subdf = df[df["strategy"] == strategy]
-            n_graphs = len(subdf)      # nombre de graphes dans cette stratégie
+            n_graphs = len(subdf)    
             all_edges = []
 
             # Collect all edges for this strategy
@@ -1033,10 +1018,10 @@ def aggregate_and_visualize_results(Results: dict, node_labels=None, figsize=(14
                 ax.axis("off")
                 continue
 
-            # --- conversion en labels node_name[i] -> node_name[j] ---
+            # --- label conversion node_name[i] -> node_name[j] ---
             labels = [f"{node_labels[i]} → {node_labels[j]}" for (i, j), _ in most_common]
 
-            # --- valeurs = pourcentage ---
+            # --- value = perrcentage ---
             values = [(count / n_graphs) * 100 for (_, count) in most_common]
 
             ax.bar(labels, values)
@@ -1052,46 +1037,45 @@ def aggregate_and_visualize_results(Results: dict, node_labels=None, figsize=(14
         fig.suptitle("Most common edges connecting SP and Tumor variables (%)", fontsize=18)
         plt.tight_layout(rect=[0, 0, 1, 0.97])
 
-        # ----- Sauvegarde -----
+        # ----- Save-----
         if save_plots:
             fname_png = out_path / f"SP_and_tumor_connections_subplots.png"
             fname_pdf = out_path / f"SP_and_tumor_connections_subplots.pdf"
             fig.savefig(fname_png, dpi=dpi, bbox_inches='tight')
             fig.savefig(fname_pdf, dpi=dpi, bbox_inches='tight')
 
-        # ----- Affichage -----
+        # ----- Plot -----
         if show_plots:
             plt.show()
 
     #11) SHD by strategy
     def compute_mean_shd_per_graph(df):
-        """
-        Ajoute une colonne 'shd' au DataFrame, contenant pour chaque graphe
-        la moyenne des SHD par rapport aux autres graphes de la même stratégie.
+        """"    
+        Adds a 'shd' column to the DataFrame, containing for each graph
+        the mean SHD compared to the other graphs of the same strategy.
         
         Parameters
         ----------
         df : pandas.DataFrame
-            Doit contenir 'strategy' et 'adjacency_matrix'.
+            Must contain 'strategy' and 'adjacency_matrix'.
         shd_func : callable
-            Fonction SHD(A, B) -> float.
+            SHD function SHD(A, B) -> float.
 
         Returns
         -------
-        df : DataFrame avec une colonne supplémentaire 'shd'.
+        df : DataFrame with an additional 'shd' column.
         """
-    
         df = df.copy()
         shd_values = []
 
-        # On boucle par stratégie
+        # strategy loop
         for strategy, group in df.groupby('strategy'):
             mats = group['adjacency_matrix'].tolist()
             n = len(mats)
 
-            # Pour chaque graphe du groupe
+            # for each graph by group
             for i in range(n):
-                # Tous les SHD avec les autres
+                # all SHD
                 dists = [
                     structural_hamming_distance(mats[i], mats[j])
                     for j in range(n) if j != i
@@ -1105,7 +1089,6 @@ def aggregate_and_visualize_results(Results: dict, node_labels=None, figsize=(14
     metrics = ['shd', 'skeleton density', 'directionality index',  'spectral radius']
     titles = ['SHD', 'Skeleton Density', 'Directionality Index', 'Spectral Radius']
     plt.figure(figsize=(figsize[0], 10))
-    # Définir l'ordre des stratégies (basé sur leur première apparition dans les données)
     strategy_order = df['strategy'].unique().tolist()
     for i, m in enumerate(metrics, 1):
         plt.subplot(2, 2, i)
@@ -1118,8 +1101,8 @@ def aggregate_and_visualize_results(Results: dict, node_labels=None, figsize=(14
         labels=[f"St.{i+1}" for i in range(len(strategy_order))])
         plt.yticks(fontsize=15)
         plt.title(titles[i-1], fontsize=22)
-        plt.xlabel('')  # Supprimer étiquette axe x
-        plt.ylabel('')  # Supprimer étiquette axe y
+        plt.xlabel('')  
+        plt.ylabel('') 
     plt.tight_layout()
     if save_plots:
         fname_png = out_path / f"metrics_boxplots.png"
@@ -1131,31 +1114,6 @@ def aggregate_and_visualize_results(Results: dict, node_labels=None, figsize=(14
         plt.show()
     plt.figure(figsize=(figsize[0], 5))
 
-    # strategy_order = df['strategy'].unique().tolist()
-
-    # sns.boxplot(
-    #     x='strategy',
-    #     y='shd',
-    #     data=df,
-    #     palette='Set2',
-    #     order=strategy_order
-    # )
-    # plt.xticks(rotation=45, fontsize=10)
-    # plt.yticks(fontsize=10)
-    # plt.title("SHD", fontsize=20)
-    # plt.xlabel('')
-    # plt.ylabel('')
-    # plt.tight_layout()
-
-    # if save_plots:
-    #     fname_png = out_path / f"shd_boxplot.png"
-    #     fname_pdf = out_path / f"shd_boxplot.pdf"
-    #     plt.savefig(fname_png, dpi=dpi, bbox_inches='tight')
-    #     plt.savefig(fname_pdf, dpi=dpi, bbox_inches='tight')
-    #     print(f"Saved SHD boxplot to {out_path}")
-
-    # if show_plots:
-    #     plt.show()
     return df
 
 def deduplicate_graphs(graphs_dict):

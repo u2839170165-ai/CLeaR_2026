@@ -34,17 +34,19 @@ def heterogeneous_knn_imputation(data, k = 100, n_neighbors_used = 3, cols_to_im
                                  discrete_cols = ['Sex', 'Smoking', 'Stage', 'Status'],
                                  out_dir=None, file_name=''):
     """
-    Imputation hétérogène basée sur kNN.
+    Heterogeneous imputation based on kNN.
+    
     Args:
-        data: DataFrame d'entrée
-        k: Nombre total de voisins à rechercher (doit être ≥ n_neighbors_used)
-        n_neighbors_used: Nombre de voisins à utiliser pour l'imputation
-        cols_to_impute: Colonnes à imputer (toutes par défaut)
-        continuous_cols: Liste des colonnes continues
-        discrete_cols: Liste des colonnes discrètes
-        out_dir: Répertoire pour sauver les plots de diagnostic
-        file_name: Préfixe pour les fichiers de diagnostic
+        data: Input DataFrame
+        k: Total number of neighbors to search (must be ≥ n_neighbors_used)
+        n_neighbors_used: Number of neighbors to use for imputation
+        cols_to_impute: Columns to impute (all by default)
+        continuous_cols: List of continuous columns
+        discrete_cols: List of discrete columns
+        out_dir: Directory to save diagnostic plots
+        file_name: Prefix for diagnostic files
     """
+
     if k < n_neighbors_used:
         raise ValueError(f"k ({k}) doit être ≥ n_neighbors_used ({n_neighbors_used})")
     
@@ -54,18 +56,17 @@ def heterogeneous_knn_imputation(data, k = 100, n_neighbors_used = 3, cols_to_im
     df = data.copy()[cols_to_impute]
     df_imputed = df.copy()
 
-    # Afficher le nombre total d'échantillons considérés pour l'imputation
+    #Print total number of samples considered for imputation
     total_samples = df.shape[0]
     print(f"Total samples: {total_samples}")
 
-    # Si out_dir fourni, sauvegarder un plot montrant la prévalence des valeurs manquantes
     if out_dir:
         out_dir = Path(out_dir)
-        # fraction manquante par colonne (parmi les colonnes à imputer)
+        # mssing fraction by column (among column to impute)
         miss_frac = df.isna().mean()
-        # trier pour lisibilité
+        # sort for readability
         miss_frac = miss_frac.sort_values(ascending=False)
-        # figure adaptative en fonction du nombre de colonnes
+        # adaptative figure
         fig_w = max(6, len(miss_frac) * 0.4)
         fig, ax = plt.subplots(figsize=(fig_w, 4))
         miss_frac.plot(kind='bar', ax=ax, color='gray')
@@ -81,45 +82,38 @@ def heterogeneous_knn_imputation(data, k = 100, n_neighbors_used = 3, cols_to_im
         print(f"Saved missing data prevalence plot to {out_dir / fname_png}")
 
     for idx, row in df[df.isna().any(axis=1)].iterrows():
-        # Colonnes disponibles pour cette ligne
+        # availables columns for this row
         observed_cols = row[~row.isna()].index.tolist()
         missing_cols = row[row.isna()].index.tolist()
 
-        # Construire ensemble de lignes complètes pour ces colonnes
+        # build complete rows for this column
         df_complete = df.dropna(subset=observed_cols)
 
         if df_complete.empty:
-            continue  # on ne peut rien faire s'il n'y a aucune ligne complète
+            continue 
 
-        # Fit kNN uniquement sur les colonnes observées
+        # Fit kNN only on observed columns
         heom_metric = make_heom_metric(continuous_cols, discrete_cols, observed_cols, df)
         knn = NearestNeighbors(n_neighbors=k, metric=heom_metric)
         knn.fit(df_complete[observed_cols].to_numpy())
 
-        # Trouver les voisins pour cette ligne
+        # find neighbors for this row
         distances, indices = knn.kneighbors([row[observed_cols].to_numpy()])
         
-        # # Créer un DataFrame avec les voisins et leurs distances
-        # neighbors_with_dist = pd.DataFrame({
-        #     'distance': distances[0],
-        #     'index': indices[0]
-        # })
         
-        # Récupérer les données des voisins
+        # Get neighbors data
         neighbors = df_complete.iloc[indices[0]].copy()
         neighbors['distance'] = distances[0]
         
-        # Imputation selon le type de variable (traiter chaque colonne séparément)
+        # Imputation by data type
         for col in missing_cols:
-            # Filtrer les voisins qui ont une valeur valide pour la colonne courante
             valid_neighbors = neighbors.dropna(subset=[col])
             n_available = len(valid_neighbors)
             if n_available == 0:
-                # Aucun voisin valide pour cette colonne : on saute cette colonne
                 print(f"No valid neighbors to impute column '{col}' for index {idx}")
                 continue
 
-            # Nombre de voisins à utiliser pour cette colonne
+            # Number of neighbors to use for this column
             n_to_use = min(n_neighbors_used, n_available)
             if n_available < n_neighbors_used:
                 print(f"Only {n_available} valid neighbors available to impute column '{col}' for index {idx}, needed {n_neighbors_used}")
@@ -128,15 +122,14 @@ def heterogeneous_knn_imputation(data, k = 100, n_neighbors_used = 3, cols_to_im
             closest_distances = closest_neighbors['distance'].values
 
             if col in continuous_cols:
-                # Moyenne pondérée par l'inverse de la distance pour les n plus proches voisins valides
-                weights = 1 / (closest_distances + 1e-6)  # Ajout d'epsilon pour éviter division par zéro
-                weights = weights / weights.sum()  # Normalisation des poids
+                # Weighted average by the inverse of the distance for the n nearest valid neighbors.
+                weights = 1 / (closest_distances + 1e-6)  # Avoid dividing by zero
+                weights = weights / weights.sum()  # weights normalization
                 value = (closest_neighbors[col] * weights).sum()
             elif col in discrete_cols:
-                # Prendre la valeur la plus fréquente parmi les n plus proches voisins valides
+                # Take most frequent value
                 value = closest_neighbors[col].value_counts().idxmax()
             else:
-                # Colonne non reconnue : ignorer
                 continue
             df_imputed.at[idx, col] = value
         df_all.loc[idx, cols_to_impute] = df_imputed.loc[idx, cols_to_impute]
@@ -150,7 +143,7 @@ def heterogeneous_knn_imputation(data, k = 100, n_neighbors_used = 3, cols_to_im
             ax2.hist(df_imputed[col], alpha=0.5, color='orange')
             ax1.set_title(col, fontsize=23)
             ax2.set_title(col, fontsize=23)
-            # Augmenter la taille des étiquettes des axes
+            
             ax1.tick_params(axis='both', which='major', labelsize=15)
             ax2.tick_params(axis='both', which='major', labelsize=15)
         fname_png = file_name+".png"
