@@ -1,0 +1,5 @@
+# Python bytecode (DANGEROUS for anonymity)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
