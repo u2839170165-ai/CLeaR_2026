@@ -1,0 +1,1045 @@
+	Age	Sex	Smoking	SPY	Stage	Status	TMB	Cell-Cell communication	Cellular responses to stimuli -- Oncogene Induced Senescence	Chromatin organization -- PKMTs methylate histone lysines	Developmental Biology	Extracellular matrix organization	Gene expression (Transcription) -- Transcriptional regulation by RUNX3	Immune System -- Dectin-2 family	Metabolism of proteins -- SUMOylation	Neuronal System	Programmed Cell Death -- Activation of NOXA and translocation to mitochondria	Signal Transduction	Vesicle-mediated transport -- Scavenging by Class H Receptors
+LUAD-CHTN-MAD08-00104		Male					4-8								4			15	
+LUAD-D01751		Female	Current Smoker	15-29	IB		4-8				13		3			11	1	19	
+TCGA-44-7660	69-74	Male	Current Smoker	118-132	IB	0:LIVING	8-13		2			9					1		
+TCGA-55-6983	80-85	Male	Reformed <=15	59-74	IIB	0:LIVING	0-4											12	
+TCGA-55-6985	54-59	Female	Reformed <=15	44-59	IB	0:LIVING	13-17	6			19	9		2		11	1		
+LUAD-D02326		Female	Never Smoke		IIA		0-4	2			7								
+TCGA-55-8513	74-80	Female	Never Smoke		IIB	0:LIVING	0-4	1				3		1					
+TCGA-05-4384	64-69	Male	Reformed >15	15-29	IIIA	0:LIVING	0-4	5		2			2		3	4	1	15	
+TCGA-33-6737	69-74	Male	Reformed <=15	15-29	IIIA	1:DECEASED	13-17	5				15		2			1	32	1
+TCGA-NC-A5HH	48-54	Male	Current Smoker	59-74	IA	0:LIVING	8-13			2	16						1		
+TCGA-MF-A522	54-59	Male	Reformed <=15	44-59	IB	0:LIVING	13-17				26	8		3	7			40	1
+TCGA-05-5420	64-69	Male	Reformed <=15	29-44	IIIA	0:LIVING	0-4								3			9	
+TCGA-22-4591	80-85	Male	Current Smoker		IIIA	1:DECEASED	4-8			2	12						1		
+TCGA-NC-A5HO	69-74	Female	Reformed <=15	29-44	IIIA	0:LIVING	4-8		2			4			3		1		
+TCGA-60-2726	54-59	Male	Reformed <=15	29-44	IIA	1:DECEASED	4-8	7	3	3	14	7	3			8			1
+TCGA-97-7937	64-69	Male	Reformed >15	29-44	IB	0:LIVING	13-17				24	12		2	5	12	1	34	
+TCGA-MP-A4TA	74-80	Female	Reformed <=15	44-59	IA	1:DECEASED	8-13	4			20	13			4	8	1	27	
+TCGA-86-8358	43-48	Male	Current Smoker	15-29	IB	0:LIVING	29-34	7	3		42	16		3					
+LUAD-RT-S01813		Female		74-88			17-21	5			33	11		2	5	11		40	
+LUAD-RT-S01711		Male	Reformed	74-88	IA		0-4				9							12	
+TCGA-95-8039	69-74	Male	Never Smoke		IA	0:LIVING	0-4	3						1			1		
+LUAD-B02077		Male	Reformed	15-29	IIB		8-13				14	6	3		4		1		1
+TCGA-22-5477	64-69	Male	Current Smoker	88-103	IA	1:DECEASED	4-8	3	2			7	2				1		
+TCGA-63-A5MP	54-59	Male	Reformed <=15	29-44	IIB	0:LIVING	4-8			3	11					7	1		
+TCGA-66-2778	64-69	Female	Reformed <=15	29-44	IIIB	0:LIVING	0-4				8				3		1		
+TCGA-33-6738	80-85	Male	Reformed <=15	44-59	IIIA	0:LIVING	8-13					6		2			1		
+TCGA-93-7347	74-80	Female	Reformed >15	0-15	IA	0:LIVING	0-4												1
+TCGA-43-A474	64-69	Male	Reformed <=15	44-59	IIA	0:LIVING	8-13			4		8	3				1		
+TCGA-58-8392	69-74	Male	Current Smoker	74-88	IB	1:DECEASED	4-8								4		1		
+LUAD-5O6B5		Female	Never Smoke		IB		0-4		1	1	5				2	2	1		
+TCGA-NJ-A4YF	48-54	Female	Reformed >15	29-44	IA	0:LIVING	17-21	7			33			2		13		40	
+TCGA-85-8049	54-59	Male	Never Smoke		IB	0:LIVING	4-8				14						1		
+TCGA-96-A4JL	74-80	Female	Never Smoke		IIA	0:LIVING	0-4							1					
+TCGA-85-A4PA	59-64	Male	Reformed <=15	29-44	IB	0:LIVING	0-4								1				
+TCGA-22-1011	69-74	Male	Current Smoker	74-88	IB	1:DECEASED	0-4							2			1		
+TCGA-34-A5IX	80-85	Male	Reformed <=15		IIB	0:LIVING	4-8				18					6	1	26	
+TCGA-NC-A5HR	74-80	Female	Reformed <=15	29-44	IIA	0:LIVING	8-13		2	2	22		3		4	8	1		
+TCGA-63-A5MB	59-64	Male	Reformed >15	15-29	IB	0:LIVING	8-13			2						10	1		
+TCGA-66-2755	59-64	Male	Reformed >15	15-29	IB	0:LIVING	4-8	5								6	1	20	1
+TCGA-78-7542	54-59	Male	Current Smoker	59-74	IB	1:DECEASED	8-13		2			7		2	4		1		1
+TCGA-67-6217	69-74	Female	Reformed >15		IIA	0:LIVING	4-8	3		2	11	7		2				17	
+LUAD-S00486		Male	Reformed	29-44	IIIA		4-8					5				7		19	
+TCGA-67-6215	48-54	Female	Never Smoke		IB	0:LIVING	0-4	2			8							10	1
+TCGA-56-7823	54-59	Female	Reformed <=15	74-88	IIA	0:LIVING	4-8	3				5					1	21	
+TCGA-43-6647	64-69	Female	Reformed <=15	29-44	IIB	0:LIVING	4-8						2				1		
+TCGA-66-2771	59-64	Male	Reformed <=15	59-74	IIB	0:LIVING	4-8	3				6		2		6		20	
+TCGA-05-4244	69-74	Male	Reformed <=15	29-44	IV	0:LIVING	4-8				13	6				5			
+TCGA-NC-A5HE	59-64	Male	Reformed <=15	29-44	IIB	0:LIVING	4-8					5						19	1
+TCGA-60-2704	69-74	Male	Current Smoker	59-74	IIB	1:DECEASED	4-8		2		10			2		6	1		
+TCGA-85-8350	59-64	Male	Current Smoker	29-44	IA	0:LIVING	8-13		2				3		5		1		
+TCGA-85-A4QQ	64-69	Male	Current Smoker	44-59	IB	0:LIVING	8-13										1		1
+LUAD-B00390		Male			IIA		4-8	3			10		2						
+TCGA-97-7552	69-74	Male	Reformed >15	29-44	IB	0:LIVING	0-4				4			1		2			
+TCGA-MP-A4TK	54-59	Female	Reformed <=15	15-29	IIB	1:DECEASED	8-13				18	9	4		7		1	23	
+LUAD-B01811		Male	Reformed		IIA		29-34	9			38	17			10	19		63	
+TCGA-50-5931	74-80	Female	Reformed <=15	29-44	IB	1:DECEASED	8-13	4		3		6		2		6	1	26	
+TCGA-55-8508	59-64	Female	Current Smoker		IIA	0:LIVING	4-8				11								
+TCGA-66-2766	54-59	Male	Reformed <=15	74-88	IIIA	0:LIVING	8-13				17	8			4	13	1	29	
+TCGA-49-AARO	38-43	Female	Current Smoker		IA	0:LIVING	17-21	5			24	13		4	6	11		41	1
+TCGA-MP-A4T6	74-80	Female	Reformed >15	44-59	IIIA	1:DECEASED	0-4							2					
+LUAD_E00623		Male	Reformed	44-59	IB		25-29	8		3	40	19				22		59	
+TCGA-44-7667	48-54	Female	Current Smoker	44-59	IIB	0:LIVING	13-17	5	2		28	11					1	41	
+TCGA-63-7022		Female	Reformed <=15	29-44	IA	0:LIVING	4-8				11	6		2			1	16	
+TCGA-MP-A4T7	74-80	Female	Reformed <=15	44-59	IV	1:DECEASED	0-4									5			
+TCGA-43-A56U	74-80	Female	Reformed <=15	15-29	IA	0:LIVING	4-8			2									1
+LUAD-E01563		Female	Reformed	15-29	IB		0-4							1					
+TCGA-58-8387	59-64	Male	Reformed <=15	29-44	IIA	1:DECEASED	4-8						2		3		1	20	
+TCGA-73-4668	64-69	Female	Reformed <=15	44-59	IIB	0:LIVING	13-17	5	2			12				11		31	
+LUAD-S00488		Male	Reformed	103-118	IIIA		13-17	5		3	26	12				10			1
+TCGA-44-8120	54-59	Male	Reformed	29-44	IB	0:LIVING	17-21	5			29	9				14			
+TCGA-NJ-A55O	54-59	Female	Reformed <=15	29-44	IIA	0:LIVING	0-4					5							1
+LUAD-D01603		Male			IV		21-25				30	12			7			52	
+TCGA-MP-A4T4	64-69	Female	Current Smoker	44-59	IIB	1:DECEASED	8-13	5	3			9		2			2		
+TCGA-66-2756	64-69	Male	Reformed <=15		IIIB	0:LIVING	13-17	5			20	9					1	32	
+TCGA-38-4632	38-43	Male	Reformed <=15	0-15	IV	1:DECEASED	13-17				23	11					1	36	1
+TCGA-66-2788	54-59	Male	Reformed <=15	74-88	IB	0:LIVING	4-8						2	2			1		
+LUAD-TLLGS		Male	Reformed	74-88	IA		0-4		2		8						1		
+TCGA-43-5668	74-80	Male	Reformed >15	15-29	IIA	0:LIVING	17-21	6			29	9		2	6			45	1
+TCGA-37-3789	64-69	Male	Never Smoke		IB	0:LIVING	8-13			2	16		3		4		1	27	
+TCGA-18-3408	74-80	Female	Reformed <=15	29-44	IB	0:LIVING	0-4				7		2		3		1	8	
+TCGA-56-8305	69-74	Male	Reformed >15	88-103	IB	0:LIVING	8-13			2				3					1
+TCGA-56-7730	69-74	Male	Current Smoker		IIA	0:LIVING	8-13			3	14	8	3			7	1	26	
+TCGA-85-8580	48-54	Female	Reformed <=15	29-44	IB	0:LIVING	4-8		2	2		7		2	4		1		
+TCGA-55-1592	64-69	Male	Reformed <=15		IA	1:DECEASED	13-17				22	8	4			10	1	37	
+TCGA-33-AASJ	59-64	Male	Reformed <=15		IB	1:DECEASED	4-8					6				7	1		
+TCGA-77-8138	69-74	Male	Reformed <=15	44-59	IB	1:DECEASED	0-4					3					1	14	
+TCGA-94-8490	69-74	Male	Reformed		IIB	0:LIVING	25-29		3	4	43		5	3	11	12		66	
+TCGA-86-A456	74-80	Female	Reformed <=15		IA	0:LIVING	8-13				16	7				7			
+TCGA-22-5472	64-69	Male	Reformed <=15	29-44	IB	1:DECEASED	8-13	5			25	10		2			1	39	
+TCGA-67-3771	74-80	Female	Reformed <=15		IA	0:LIVING	29-34	8		6	54	14	6					73	
+TCGA-55-8207	69-74	Male	Reformed >15		IB	0:LIVING	8-13				16	8		2		7			
+TCGA-60-2712	74-80	Female	Reformed >15	0-15	IIB	1:DECEASED	0-4								3		1		
+TCGA-60-2715	48-54	Male	Reformed <=15	15-29	IA	1:DECEASED	4-8					5				10	1		
+TCGA-98-A53J	74-80	Male	Reformed >15	88-103	IB	0:LIVING	0-4								2		1	10	
+TCGA-39-5021	69-74	Male	Reformed <=15	103-118	IB	1:DECEASED	0-4		2		9				3		1	13	
+TCGA-58-A46K	59-64	Male	Reformed <=15	0-15	IIIA	1:DECEASED	0-4		2		8						1	15	1
+TCGA-91-6840	59-64	Female	Reformed >15	44-59	IA	0:LIVING	0-4								3		1	12	
+TCGA-86-8585	54-59	Male	Never Smoke		IB	0:LIVING	17-21		3		26	10	6	2	8	11	1	40	
+TCGA-77-7141	59-64	Male	Reformed <=15	59-74	IB	0:LIVING	21-25			4	26			2		13			1
+TCGA-NC-A5HT	64-69	Male	Reformed <=15	44-59	IIIA	0:LIVING	8-13			4		8				12	1	33	
+TCGA-77-A5G3	59-64	Male	Reformed <=15	29-44	IIB	0:LIVING	17-21			4		12		2	7	17			1
+LUAD-CHTN-MAD06-00490		Female					0-4											11	
+TCGA-33-AASI	64-69	Female	Reformed <=15	59-74	IIB	1:DECEASED	8-13	5			23	6	3	2			1	34	
+TCGA-21-1070	59-64	Female	Reformed <=15	15-29	IIIA	0:LIVING	13-17	6	2			10			5		1	33	1
+TCGA-97-8175	54-59	Female	Reformed >15		IB	0:LIVING	0-4		1						3		1		
+TCGA-85-6798	54-59	Male	Current Smoker	29-44	IIIA	0:LIVING	4-8	5	5		16	5			5		1	24	
+TCGA-33-4583	69-74	Male	Reformed <=15	44-59	IA	0:LIVING	13-17	6	2		23	11		2			1	49	1
+LUAD-E01217		Male	Current Smoker	44-59	IIB		13-17	5	2					2		10		33	
+TCGA-63-5128		Male	Reformed <=15		IB	1:DECEASED	8-13			2	16	8		3			1		
+LUAD-NYU263		Female	Reformed	29-44	IA		4-8				16	5							
+TCGA-35-5375	59-64	Male	Reformed <=15	29-44	IIIA	0:LIVING	8-13	5	3		22	7	3		6	10	1	29	
+TCGA-67-4679	64-69	Male	Reformed <=15			0:LIVING	4-8				17	8				6		23	1
+TCGA-MN-A4N1	59-64	Male	Current Smoker		IIA	0:LIVING	13-17				24	8		2			1		
+TCGA-49-4494	74-80	Male	Reformed >15	44-59	IIIA	1:DECEASED	4-8							2		5			
+TCGA-05-4410	59-64	Male	Reformed <=15	88-103	IB	0:LIVING	29-34	10		4	50	20		3	7	16		73	
+TCGA-22-5473	74-80	Male	Reformed >15	44-59	IB	1:DECEASED	21-25	6		4	32		4		8	13		50	
+TCGA-34-5232	74-80	Female			IIA	0:LIVING	4-8	3			13					5	1		
+TCGA-44-7672	48-54	Female	Current Smoker	15-29	IA	0:LIVING	4-8				11	6	2			4		16	
+TCGA-69-8255	69-74	Male	Current Smoker	29-44	IA	0:LIVING	8-13		2		14		3		4	6	1		
+LUAD-B02594		Female		29-44	IIIA		21-25			3	38	16	4	3	7	17		49	1
+TCGA-85-8479	64-69	Male	Reformed <=15	88-103	IA	0:LIVING	0-4					4					1	11	
+LUAD-S01405		Male	Current Smoker	29-44	IIA		8-13			2	14	6			4	6	1	26	
+TCGA-85-7699	69-74	Male	Reformed >15	74-88	IIIA	0:LIVING	4-8		2		21		3		4		1	19	1
+TCGA-85-A4QR	64-69	Male	Reformed <=15	44-59	IB	0:LIVING	4-8		2				2			5	1	16	
+TCGA-94-7033	69-74	Male	Reformed <=15	29-44	IB	0:LIVING	0-4				9	3	2				1		
+TCGA-86-8672	59-64	Male	Never Smoke		IIB	0:LIVING	8-13				20				4	9	1	25	
+TCGA-77-8153	74-80	Female	Reformed >15	15-29	IB	0:LIVING	4-8		2			4			3	5			
+TCGA-62-A471	59-64	Male	Reformed <=15	29-44	IIB	0:LIVING	0-4		2				2				1		
+TCGA-05-5428	54-59	Male	Reformed >15	29-44	IIA	0:LIVING	8-13	5			21	6				11	1	29	
+TCGA-97-A4M1	48-54	Female	Reformed >15	0-15	IA	0:LIVING	0-4		1		5	2		1			1		
+LUAD-F00257		Female	Current Smoker	29-44	IA		4-8				14		3	2	4	8	1	23	1
+TCGA-05-5715	64-69	Female	Never Smoke		IB	0:LIVING	0-4				10	3						14	
+TCGA-99-7458	69-74	Female	Reformed <=15	44-59	IIIA	0:LIVING	13-17				22	9				10	1		
+TCGA-95-A4VP	64-69	Female	Reformed <=15	15-29	IIIA	0:LIVING	0-4					5							
+TCGA-55-7570	59-64	Male	Current Smoker		IA	0:LIVING	8-13				17	8		3	4		1	31	
+TCGA-85-8276	59-64	Male	Current Smoker	15-29	IIA	0:LIVING	8-13				18	5		2	4				
+TCGA-53-7626	74-80	Female	Reformed <=15	29-44	IIA	1:DECEASED	8-13		2		20			2		9	1		1
+TCGA-37-A5EN	59-64	Male			IIIB	0:LIVING	4-8								4		1		1
+LUAD-S00484		Male	Current Smoker	59-74	IV		8-13	4	2		17	9		2		9	1		1
+TCGA-86-8668	59-64	Female	Never Smoke		IA	0:LIVING	0-4							1					
+TCGA-56-8629	59-64	Male	Reformed <=15	59-74	IIA	0:LIVING	4-8	4		2		5							1
+TCGA-90-7769	54-59	Male	Reformed >15	29-44	IIB	0:LIVING	13-17	5	3	3	22	10		2		10	1		
+TCGA-56-A4ZJ	74-80	Female	Reformed <=15	88-103	IA	0:LIVING	0-4	3								5		11	
+TCGA-85-8072	59-64	Male	Current Smoker	15-29	IA	0:LIVING	4-8			3		4	2		3		1		1
+TCGA-NJ-A55A	74-80	Female	Reformed >15	15-29	IB	0:LIVING	0-4			2									
+TCGA-34-2600	74-80	Female	Reformed <=15	44-59	IA	1:DECEASED	13-17	5		4			4	5		10	1	41	1
+TCGA-58-A46M	59-64	Male	Current Smoker		IIB	0:LIVING	8-13	4		2	23	9	3	2	4		1	32	
+LUAD-NYU704		Female	Reformed	0-15	IB		0-4		1					1			1		
+TCGA-94-7943	80-85	Male	Reformed >15	29-44	IA	0:LIVING	4-8				11	4					1	18	
+LUAD-74TBW		Male	Reformed	59-74	IB		4-8					5				7			1
+TCGA-44-A47B	74-80	Male	Reformed >15	0-15	IB	0:LIVING	0-4	3											
+TCGA-37-3783	48-54	Male			IIIA	0:LIVING	8-13	6					3	2	4		1	34	
+TCGA-86-7955	59-64	Male	Never Smoke		IB	0:LIVING	8-13	7	2		17	5							
+LUAD-NYU575		Female	Never Smoke		IIA		4-8	4				7				5			
+TCGA-97-7553	54-59	Female	Current Smoker	15-29	IA	0:LIVING	0-4		2								1	7	
+LUAD-E01014		Female	Reformed	0-15	IIIA		4-8				11	3					1		
+TCGA-46-3769	54-59	Male	Reformed <=15		IIB	0:LIVING	21-25	7				17				16		66	
+LUAD-E01317		Female	Reformed				4-8				13	6			4		1		1
+TCGA-50-8460	69-74	Male			IA	0:LIVING	0-4		1								1		
+TCGA-63-A5MG	64-69	Male	Reformed >15		IB	0:LIVING	0-4											11	
+TCGA-55-8616	54-59	Female	Reformed <=15		IB	0:LIVING	13-17				22	8	4	2	5	9	1		
+TCGA-86-8671	69-74	Female	Never Smoke		IIB	0:LIVING	0-4					2							
+TCGA-34-2608	80-85	Male	Reformed >15	59-74	IB	1:DECEASED	4-8						2				1		
+LUAD-B02515		Male	Reformed	15-29	IIA		8-13				17				4	6		22	
+TCGA-22-5479	59-64	Male	Reformed <=15	29-44	IB	0:LIVING	13-17		2	3	20			2	5	7	1		
+TCGA-55-7914	69-74	Female	Current Smoker	0-15	IIA	0:LIVING	4-8						2		3		1		1
+TCGA-91-7771	59-64	Male	Reformed <=15	74-88	IIB	0:LIVING	4-8											22	
+TCGA-55-8505	59-64	Male	Never Smoke		IIIA	0:LIVING	0-4												1
+TCGA-37-4132	59-64	Female	Never Smoke		IV	0:LIVING	8-13		2	2	13	6			5		1	24	
+TCGA-44-4112	59-64	Female	Reformed >15	29-44	IB	0:LIVING	13-17	6			26	12		2		12		34	
+TCGA-75-6214		Female	Current Smoker	29-44	IIIA	0:LIVING	21-25	8		4	34	15	5	3		13			2
+TCGA-56-A49D	64-69	Male	Reformed <=15	44-59	IIIA	0:LIVING	8-13		3		14					6	1	24	
+TCGA-77-8009	64-69	Male	Reformed <=15	88-103	IIB	0:LIVING	4-8	4			10	4							
+TCGA-37-4129	48-54	Female	Reformed <=15	29-44	IA	0:LIVING	0-4	1						1					
+TCGA-77-A5G1	74-80	Male	Reformed <=15	44-59	IIIA	0:LIVING	4-8		2		12	6	2				1	19	
+TCGA-51-4081	54-59	Male	Current Smoker	74-88	IIB	0:LIVING	4-8				10	5			3		1		
+LUAD-F00134		Male	Never Smoke				0-4				5								
+TCGA-05-4396	74-80	Male	Reformed >15	15-29	IIIB	1:DECEASED	13-17	4			19	6					1	39	2
+LUAD-S01468		Male	Reformed	15-29	IB		13-17	5			25	8					1	34	
+TCGA-56-A4ZK	74-80	Female	Reformed <=15		IB	0:LIVING	4-8		2			4					1	17	
+LUAD-F00121		Female	Reformed	44-59	IIA		8-13					6		2		8		26	
+TCGA-49-AAR3	64-69	Male			IIB	0:LIVING	4-8						2	2			1		
+TCGA-43-2576	59-64	Female	Reformed <=15	15-29	IIIA	0:LIVING	13-17				20					10	1	30	
+TCGA-44-3918	59-64	Female	Reformed >15	15-29	IA	0:LIVING	25-29	8			37	14				16			
+TCGA-66-2727	54-59	Female	Reformed <=15	44-59	IB	1:DECEASED	4-8				12			3	3		1	21	
+TCGA-78-7148	69-74	Male	Current Smoker	44-59	IIB	1:DECEASED	4-8	5		2	17		3			7			
+TCGA-62-A46P	64-69	Male	Reformed <=15	29-44	IB	1:DECEASED	4-8			2	16					6			
+TCGA-22-1002	64-69	Male	Reformed <=15	74-88	IA	1:DECEASED	4-8		2	2						7	1	20	
+TCGA-77-A5GF	69-74	Male	Reformed <=15	59-74	IIA	0:LIVING	0-4		2		9	4	2				1		
+TCGA-05-4422	64-69	Male	Reformed <=15	132-147	IB	0:LIVING	0-4	2										9	
+TCGA-66-2786	64-69	Female	Reformed <=15	74-88	IA	0:LIVING	4-8	3	2	3		5					1		
+TCGA-56-8309	64-69	Male	Current Smoker	44-59	IA	0:LIVING	0-4				8					7	1	18	
+TCGA-96-8170	74-80	Female	Reformed <=15	44-59	IIA	0:LIVING	4-8		2		12						1	27	
+TCGA-46-3767	74-80	Male	Reformed >15		IA	0:LIVING	0-4										1		
+TCGA-78-7167	74-80	Male	Current Smoker	59-74	IV	1:DECEASED	0-4												1
+LUAD-RT-S01771		Male	Reformed	44-59	IIIB		0-4				4								
+TCGA-39-5040	59-64	Male	Reformed <=15	59-74	IIIA	1:DECEASED	13-17	5			32	13			5		1	49	
+TCGA-43-6773	74-80	Male	Reformed >15		IIB	1:DECEASED	0-4		1				2			3	1		
+TCGA-73-7498	54-59	Female	Reformed <=15	15-29	IA	0:LIVING	0-4				11	3						12	
+TCGA-96-7544	80-85	Male	Current Smoker	59-74	IIB	0:LIVING	8-13	5		4		9		2			1		
+TCGA-95-8494	64-69	Male	Reformed		IIA	0:LIVING	0-4										1		
+TCGA-60-2707	69-74	Male	Reformed >15	44-59	IB	0:LIVING	0-4		2						3		1		1
+TCGA-56-A62T	74-80	Male	Current Smoker	88-103	IIA	0:LIVING	13-17	4	2		25	9		2		8	1		
+TCGA-97-8176	59-64	Male	Reformed <=15	29-44	IIIA	0:LIVING	4-8				9			2					1
+TCGA-22-4613	69-74	Female	Reformed >15	29-44	IA	1:DECEASED	17-21	6			33	12		3	5	10	2	43	
+TCGA-78-7220	48-54	Female	Current Smoker	29-44	IIIA	1:DECEASED	21-25				26	13		3	7	11			1
+TCGA-75-5122		Male	Reformed >15	15-29	IB	1:DECEASED	4-8					5							
+TCGA-93-A4JO	69-74	Male	Reformed <=15	44-59	IA	1:DECEASED	0-4		2		4		2		2		1		
+TCGA-90-A59Q	59-64	Female	Current Smoker	74-88	IIA	0:LIVING	4-8											25	
+TCGA-85-7710	59-64	Female	Current Smoker	44-59	IA	0:LIVING	4-8	3	2		11	6				5	1	15	1
+TCGA-85-8070	69-74	Male	Current Smoker	44-59	IB	0:LIVING	4-8										1		
+TCGA-63-A5M9							0-4		2	2	10		3		2		1		
+TCGA-34-2596	69-74	Male	Reformed >15	59-74	IIB	1:DECEASED	4-8		3		12				4	8	1		
+TCGA-55-6968	59-64	Male	Current Smoker		IV	1:DECEASED	13-17		2		30	8					1		
+TCGA-62-A46O	64-69	Female	Current Smoker	44-59	IB	1:DECEASED	25-29			3	44	19		3		13		64	
+TCGA-50-5941	54-59	Female	Current Smoker	15-29	IIIA	0:LIVING	8-13	4				11				8	1	33	1
+TCGA-55-6979	59-64	Female	Reformed >15		IIB	1:DECEASED	4-8				7						1	12	
+TCGA-73-7499	80-85	Female	Never Smoke		IB	0:LIVING	0-4				6			1	2		1		
+TCGA-60-2711	59-64	Female	Reformed <=15	29-44	IB	0:LIVING	0-4					5			3		1	17	
+TCGA-64-5779	59-64	Male	Reformed <=15	29-44	IIIA	0:LIVING	8-13					9			5			25	
+TCGA-86-8359	48-54	Male	Current Smoker	29-44	IIIA	0:LIVING	4-8					4				5			
+TCGA-77-8140	64-69	Female	Reformed <=15	74-88	IIB	1:DECEASED	8-13	4	2	2	19	7	3	2		7	1		
+TCGA-50-6593	48-54	Female	Reformed <=15		IIIA	1:DECEASED	8-13							2			1		
+TCGA-NC-A5HF	69-74	Male	Current Smoker		IIIB	1:DECEASED	4-8	6				5					1		1
+TCGA-73-4675	59-64	Male	Reformed <=15	29-44	IIIA	0:LIVING	0-4							1					
+LUAD-NYU213		Male	Reformed	15-29	IIA		0-4									2			
+TCGA-78-7166	80-85	Male	Reformed >15	29-44	IIB	1:DECEASED	4-8			2	12								
+TCGA-77-8148	64-69	Male	Reformed <=15	59-74	IIIA	0:LIVING	4-8			2		5					1		
+TCGA-05-4397	64-69	Male	Current Smoker	44-59	IIB	1:DECEASED	21-25	8	3		35	17				16		67	
+TCGA-44-2666	38-43	Male	Current Smoker	29-44	IB	1:DECEASED	0-4		1	1				1			1	5	
+TCGA-53-7624	38-43	Female	Current Smoker	44-59	IV	1:DECEASED	21-25			5	29	14			6	15		54	
+TCGA-50-6594	74-80	Female	Reformed <=15		IIIA	1:DECEASED	13-17							2			1		1
+TCGA-44-A4SU	64-69	Female	Reformed <=15	44-59	IA	0:LIVING	4-8	4	2		15	4		2			1	15	
+TCGA-95-7947	64-69	Male	Reformed <=15	88-103	IA	0:LIVING	13-17	5	2		23	12					1		1
+TCGA-69-7765	54-59	Male	Reformed <=15		IV	0:LIVING	17-21	5			26					12		46	1
+LUAD-CHTN-Z4716A		Male					29-34	7		4	38	13				20		72	
+LUAD-QJN9L		Male	Reformed	44-59	IIB		0-4		1		5			2	2		1	10	
+LUAD-VUMN6		Female	Reformed	15-29	IIB		8-13		2	5	21	6		2				28	
+TCGA-43-7656	69-74	Male	Reformed <=15	44-59	IA	0:LIVING	8-13				17					8	1		1
+TCGA-58-8391	54-59	Female	Current Smoker	29-44	IIIA	0:LIVING	8-13					11					1	24	
+TCGA-91-6836	48-54	Female	Current Smoker	44-59	IB	0:LIVING	8-13	5	2			7		2	6	9	1	36	
+TCGA-43-5670	69-74	Male	Reformed >15	29-44	IIA	0:LIVING	0-4				9	3	2		3		1		
+LUAD-NYU847		Male	Reformed	15-29	IIB		8-13	4		2	22	7		2		8	1	35	
+TCGA-75-5147		Female	Never Smoke		IB	0:LIVING	0-4		2								1	6	
+TCGA-50-5939	85-90	Male	Reformed >15	15-29	IB	1:DECEASED	0-4						2		2		1	9	1
+TCGA-97-A4M7	69-74	Male	Reformed >15	29-44	IA	0:LIVING	8-13			3		6							1
+TCGA-J2-A4AG	64-69	Female	Reformed >15	15-29	IA	0:LIVING	0-4							1					
+TCGA-66-2795	64-69	Male	Reformed <=15	74-88	IIIB	0:LIVING	8-13		2		14	7	4			7	2	23	
+TCGA-55-7911	69-74	Female	Reformed >15	88-103	IA	0:LIVING	4-8	3			16		3				1		1
+TCGA-49-6743	80-85	Female	Reformed <=15	44-59	IIIA	0:LIVING	21-25	13		3		15		4		16		46	1
+TCGA-96-7545	69-74	Male	Reformed <=15	103-118	IA	0:LIVING	0-4		2		11		3		3	6	1		1
+TCGA-66-2782	69-74	Male	Reformed <=15	44-59	IIB	1:DECEASED	8-13			2		6					1		
+TCGA-05-4434	64-69	Female	Current Smoker	15-29	IV	1:DECEASED	0-4			1								6	
+LUAD-B01024		Male	Current Smoker	88-103	IIA		13-17	5			30	10				11	1	43	1
+TCGA-34-2604	80-85	Female	Current Smoker	118-132	IB	1:DECEASED	17-21					7		3		12			1
+TCGA-66-2792	54-59	Male	Reformed <=15	0-15	IIB	0:LIVING	0-4		2		7		2				1		
+TCGA-62-A46R	54-59	Female	Reformed <=15	15-29	IB	1:DECEASED	4-8						3				1		1
+TCGA-62-A472	69-74	Male	Current Smoker	59-74	IIB	0:LIVING	0-4		1	1				1			1	6	
+TCGA-21-5786	59-64	Male	Current Smoker	74-88	IB	0:LIVING	8-13	4	3		22	8	3		4	8	1	28	
+LUAD-S01302		Male	Current Smoker	118-132	IB		21-25	8	3	4	36	15		3		12		49	
+TCGA-L9-A5IP	38-43	Female	Reformed <=15		IV	1:DECEASED	8-13	5				5					1		
+LUAD-S01404		Male	Current Smoker	74-88	IIIA		4-8					7							
+TCGA-91-6849	74-80	Female	Reformed >15	29-44	IIIA	0:LIVING	0-4				7					4		13	
+TCGA-63-A5MR	69-74	Female	Reformed <=15	118-132	IB	0:LIVING	4-8						3			4	1	15	
+TCGA-33-AASL	54-59	Female	Current Smoker	59-74	IA	1:DECEASED	8-13			2		7					1		
+TCGA-94-8035	59-64	Male	Current Smoker	44-59	IIB	0:LIVING	4-8	3					3				1		
+TCGA-86-8074	59-64	Female	Current Smoker	29-44	IIA	0:LIVING	0-4		2		6	3					1		1
+TCGA-44-2665	54-59	Female	Never Smoke		IIB	0:LIVING	0-4					2				2		7	
+TCGA-75-7027		Male	Current Smoker	44-59	IB	0:LIVING	4-8					4							
+TCGA-05-4424	69-74	Male	Reformed <=15	44-59	IIB	0:LIVING	21-25	9			31	10				10		60	
+TCGA-39-5011	69-74	Female	Reformed <=15	44-59	IA	0:LIVING	17-21	5				9				16			1
+TCGA-49-6744	59-64	Female	Reformed <=15	15-29	IIA	0:LIVING	4-8			3				2					
+TCGA-75-6207		Male	Reformed >15	0-15	IIIA	1:DECEASED	0-4									3	1		
+TCGA-NC-A5HG	59-64	Male	Reformed <=15	74-88	IIIA	0:LIVING	17-21	5		5	30	7		3					
+TCGA-50-5066	69-74	Male	Never Smoke		IB	0:LIVING	8-13	4				7		2		7	1		1
+TCGA-99-AA5R	69-74	Female	Current Smoker	44-59	IA	0:LIVING	0-4	2				3							
+TCGA-34-5231	69-74	Male	Reformed >15	44-59	IA	0:LIVING	17-21		3	4	30	15		3	9	13		43	1
+LUAD-TJW61		Female	Reformed	59-74			8-13							2	5		1		1
+TCGA-51-4080	64-69	Male	Reformed <=15		IIIB	1:DECEASED	8-13	3	2			6			3	8	1		1
+TCGA-55-6984	69-74	Female			IIB	1:DECEASED	0-4						1						
+TCGA-34-5240	69-74	Female	Current Smoker	44-59	IIB	0:LIVING	4-8		2		11				3		1	16	
+TCGA-55-8094	48-54	Male	Reformed <=15	59-74	IV	0:LIVING	13-17				17	7		2		11	1	32	1
+TCGA-58-A46J	59-64	Male	Current Smoker		IIB	0:LIVING	4-8				10		2		4	5	1	15	
+TCGA-44-A4SS	69-74	Male	Reformed <=15	88-103	IA	0:LIVING	13-17	5	2	3	23	9					1		
+TCGA-05-4395	74-80	Male	Reformed >15		IIIB	1:DECEASED	4-8					5				6	1	21	1
+TCGA-22-4605	74-80	Female	Reformed <=15	74-88	IB	1:DECEASED	0-4					3					1		
+TCGA-97-7554	80-85	Female	Reformed >15	29-44	IIIA	0:LIVING	13-17			3	20	11	4	3		12	1	43	
+TCGA-6A-AB49	69-74	Female	Reformed >15	44-59	IB	1:DECEASED	8-13				20	6				7		35	1
+TCGA-52-7622	59-64	Female	Reformed <=15	15-29	IA	0:LIVING	4-8	5	2		13			2	6		1	27	
+TCGA-49-6767	43-48	Female	Current Smoker	29-44	IIB	0:LIVING	13-17	5			22	12					1	35	
+TCGA-22-1000	74-80	Male	Reformed <=15	29-44	IB	1:DECEASED	0-4		2			4			2		1	10	
+TCGA-97-A4LX	80-85	Male	Reformed >15	118-132	IB	0:LIVING	4-8	3			11						1		1
+TCGA-85-8048	59-64	Male	Current Smoker	44-59	IA	0:LIVING	0-4		2		7	3	2		3		1	11	
+TCGA-55-6986	69-74	Female	Never Smoke		IB	0:LIVING	0-4			2									
+LUAD-D01278		Male	Reformed		IIB		4-8		2		14		3	2	3		1		1
+TCGA-64-5775	69-74	Male	Current Smoker	103-118	IIIA	1:DECEASED	13-17			3	21	9		3		8	1		1
+TCGA-55-A493	54-59	Female	Current Smoker	44-59	IB	0:LIVING	4-8	3									1	24	1
+TCGA-66-2789	69-74	Male	Reformed <=15	29-44	IIIB	1:DECEASED	8-13			2	16	5							1
+TCGA-NC-A5HP	64-69	Male	Current Smoker	44-59	IV	0:LIVING	8-13	8	3			6	4		5	7	1	28	1
+TCGA-66-2769	74-80	Male	Reformed >15	29-44	IIIB	1:DECEASED	8-13					8		2	5			26	1
+TCGA-66-2758	69-74	Male	Reformed <=15	44-59	IB	0:LIVING	8-13		2			5		2		8	1		
+LUAD-CHTN-3090415		Male					4-8				11					7			
+TCGA-44-7662	59-64	Male	Current Smoker	44-59	IB	0:LIVING	17-21	5	2		26	7		3	5	9	1	38	1
+TCGA-05-4430	59-64	Female	Reformed <=15	74-88	IB	0:LIVING	8-13			3	15	7	4			6	1		1
+TCGA-49-4506	64-69	Female	Current Smoker	88-103	IIB	1:DECEASED	0-4			3	9	5						18	
+TCGA-78-7160	59-64	Male	Reformed <=15	29-44	IV	0:LIVING	0-4									2			
+TCGA-77-A5GB	85-90	Male	Current Smoker	44-59	IB	1:DECEASED	0-4		2		11	3					1	14	
+LUAD-RT-S01769		Male	Current Smoker	44-59	IB		8-13		2			6				6	1	26	
+TCGA-NC-A5HK	54-59	Female	Reformed <=15	29-44	IIB	0:LIVING	4-8	3	3		15	5			4		1		
+TCGA-55-7725	64-69	Female	Reformed >15	15-29	IA	0:LIVING	0-4				8	4							
+TCGA-22-1016	64-69	Male	Reformed >15	29-44	IB	1:DECEASED	8-13				19	7					1	27	
+TCGA-44-6777	85-90	Female	Reformed <=15	59-74	IB	1:DECEASED	8-13				18	8	4		4	8	1	33	1
+TCGA-18-4083	59-64	Male	Current Smoker	44-59	IIB	1:DECEASED	8-13			5		8		2		9	1		
+TCGA-85-8353	69-74	Male	Current Smoker	44-59	IIIA	0:LIVING	4-8		2	2							1		
+TCGA-86-8056	59-64	Female	Reformed >15	29-44	IIIA	0:LIVING	8-13		3	2	16		4	2		7	1	22	
+TCGA-MP-A4TE	54-59	Male	Reformed <=15	29-44	IIA	1:DECEASED	0-4											11	
+LUAD-YKER9		Male	Reformed	44-59	IB		4-8		2			5				6	1	23	
+LUAD-CHTN-MAD04-00674		Female					0-4					3	2		2	5	1		
+TCGA-78-7540	64-69	Female	Never Smoke		IB	0:LIVING	0-4		1				2				1		
+TCGA-44-7669	59-64	Male	Current Smoker	15-29	IIA	1:DECEASED	13-17	6	2		21	10		2		8	1	31	
+TCGA-05-5429	59-64	Male	Never Smoke		IIIA	0:LIVING	0-4											7	
+LUAD-S00499		Female	Never Smoke		IIIA		0-4		1					1		3		8	
+TCGA-67-6216	54-59	Female	Never Smoke		IA	0:LIVING	0-4			1				1					
+TCGA-34-5929	74-80	Female	Reformed >15	29-44	IB	1:DECEASED	4-8				10					5	1	17	
+TCGA-97-A4M2	64-69	Male	Current Smoker	88-103	IA	0:LIVING	0-4					3							
+TCGA-86-A4P7	59-64	Female	Never Smoke		IB	0:LIVING	0-4		1		5	4		1			1	9	
+TCGA-85-8277	69-74	Male	Never Smoke		IIIA	0:LIVING	4-8	3	2		14		5		3		1		
+TCGA-85-7698	43-48	Male	Reformed >15	29-44	IA	0:LIVING	0-4	4	3								1		
+TCGA-95-7944	69-74	Male	Current Smoker	44-59	IA	0:LIVING	4-8	3			11				3		1	17	
+TCGA-55-6982	74-80	Female	Never Smoke		IIB	1:DECEASED	4-8				12							21	
+TCGA-83-5908	59-64	Female	Reformed <=15	59-74	IA	0:LIVING	4-8				12		3				1		
+LUAD_E01147		Male	Current Smoker	44-59	IA		4-8	3						2		8	1	21	
+TCGA-56-8083	54-59	Male	Reformed <=15	29-44	IB	0:LIVING	4-8	3		2					4		1	20	
+LUAD-B00523		Male	Reformed	29-44	IIIA		13-17	7		3	20	11		3	6	8	1	32	1
+TCGA-33-4547	64-69	Male	Reformed >15	29-44	IB	0:LIVING	4-8		2		13		3		3		1		
+TCGA-78-7535	43-48	Male	Current Smoker	29-44	IB	1:DECEASED	4-8	3						2	3		1		
+TCGA-38-4631	69-74	Female	Reformed <=15	29-44	IB	1:DECEASED	21-25	7		3		18			6	12		51	
+LUAD-B00859		Female		15-29	IB		8-13					7				11			1
+TCGA-91-6829	74-80	Male	Reformed <=15	88-103	IB	1:DECEASED	17-21		3			9				11		56	
+LUAD-S01478		Male	Reformed	29-44	IB		13-17	5	2			11					1	31	1
+LUAD-RT-S01770		Female	Never Smoke		IIIB		0-4		2	1							1		
+TCGA-05-4390	54-59	Female	Reformed <=15	15-29	IB	0:LIVING	13-17				23	10		2					1
+TCGA-05-4402	54-59	Female	Never Smoke		IV	1:DECEASED	4-8				9		2	2			1		
+TCGA-70-6723	64-69	Male	Never Smoke		IIA	0:LIVING	0-4			2	6	4			2		1		
+TCGA-85-6560	59-64	Male	Reformed <=15	29-44	IIA	0:LIVING	13-17		2		22	8	3	2		8	1		
+TCGA-77-7465	54-59	Male	Current Smoker	118-132	IIA	0:LIVING	8-13	7	2		19	6	3	2	5	9	1		1
+LUAD-RT-S01810		Male		59-74			4-8			2	16				3		1		1
+LUAD-NYU776		Female	Reformed	29-44	IIIA		13-17	6	2			9				12	1	37	1
+TCGA-62-8399	59-64	Male	Reformed <=15	59-74	IIIA	0:LIVING	13-17	5			24	10		2			1	36	
+TCGA-66-2773	64-69	Male	Reformed >15	44-59	IB	1:DECEASED	17-21	8		5	25				5	9		38	
+TCGA-73-4659	64-69	Male	Reformed >15	0-15	IIIA	1:DECEASED	4-8					4						19	
+TCGA-39-5036	69-74	Male	Reformed <=15	59-74	IB	0:LIVING	8-13			2	17	7		2		8	1		
+LUAD-B00915		Female		29-44	IV		13-17	8			24			2		19			
+TCGA-55-8615	64-69	Male	Current Smoker	59-74	IIIA	0:LIVING	0-4						2			5			
+LUAD-S01341		Female	Reformed	0-15	IIIA		0-4											11	
+TCGA-66-2757	64-69	Female	Reformed <=15	59-74	IA	0:LIVING	4-8	6			14	6		2		6	1	22	
+TCGA-99-8028	48-54	Female	Reformed <=15	29-44	IA	0:LIVING	13-17	6	2		24	10		2		15	1	43	1
+TCGA-18-3415	74-80	Male	Reformed >15	29-44	IB	0:LIVING	4-8				9						1		
+TCGA-55-A48Z	59-64	Female	Reformed <=15	29-44	IIIB	0:LIVING	0-4		2		7				2		1	9	
+TCGA-75-7025		Male	Reformed >15		IB	0:LIVING	0-4			1					2				
+TCGA-49-6742	69-74	Male	Reformed >15	0-15	IIA	0:LIVING	4-8	5							5				
+TCGA-34-8455	64-69	Male	Reformed <=15	44-59	IV	1:DECEASED	13-17		2		25	11	4				1		
+TCGA-55-7903	59-64	Male	Current Smoker	29-44	IA	0:LIVING	4-8								4		1		
+LUAD-RT-S01707		Male	Reformed	44-59	IIIA		25-29	9			34	18				13		54	
+TCGA-50-5942	64-69	Female	Reformed <=15	29-44	IA	0:LIVING	0-4				5								
+TCGA-55-6970	64-69	Female	Reformed <=15		IIIA	1:DECEASED	4-8				12		2						
+LUAD_E01419		Female	Reformed	0-15	IA		0-4	2			6		2				1	10	
+TCGA-34-8454	59-64	Female	Reformed <=15	88-103	IIIA	0:LIVING	13-17	6			27			2				41	1
+TCGA-56-A4BX	69-74	Male	Reformed <=15	74-88	IIA	0:LIVING	0-4		3	2	9		3		3		1		1
+TCGA-77-7138	64-69	Male	Reformed >15	15-29	IB	1:DECEASED	0-4		1			2	2		2		1	7	1
+TCGA-60-2703	69-74	Male	Reformed <=15	44-59	IIB	1:DECEASED	8-13				17					7	1	27	
+LUAD-QY22Z		Male	Reformed	74-88	IB		4-8										1	18	
+TCGA-NC-A5HI	64-69	Female	Current Smoker	59-74	IB	0:LIVING	8-13	4			23	6	5			8	1	41	
+TCGA-77-7337	64-69	Male	Reformed <=15	74-88	IIB	1:DECEASED	8-13		2	3	20	7	3				1	24	
+TCGA-43-6770	59-64	Female	Current Smoker	29-44	IB	0:LIVING	4-8					6		2			1		1
+TCGA-58-A46N	48-54	Male	Current Smoker	44-59	IB	0:LIVING	4-8		2	2	14	7	4		3		1	18	
+TCGA-55-8092	74-80	Male	Reformed <=15	29-44	IIB	0:LIVING	13-17	8	2		40	12		3			1	39	1
+TCGA-77-8144	69-74	Male	Current Smoker	59-74	IB	0:LIVING	8-13		2	4	22	6	4	2	7	9	1		1
+TCGA-21-1078	74-80	Male	Reformed <=15	0-15	IB	1:DECEASED	0-4				7		2					13	
+TCGA-86-8280	54-59	Female	Never Smoke		IIA	0:LIVING	0-4		1		4		2	1			1	6	
+TCGA-56-7223	64-69	Male	Reformed <=15		IIIA	0:LIVING	4-8				13			2		9	1	24	
+TCGA-66-2785	64-69	Male	Reformed <=15	59-74	IB	0:LIVING	34-38	12			54	21						76	
+TCGA-69-A59K	59-64	Female	Reformed <=15	15-29	IIB	0:LIVING	13-17	7			21	10			5	12	1	48	
+TCGA-39-5030	80-85	Female	Reformed >15	0-15	IIIA	1:DECEASED	8-13			2	15			2				28	
+LUAD-S01409		Female	Reformed	29-44	IV		17-21				28	12	5					41	
+TCGA-44-2659	64-69	Female	Reformed <=15	44-59	IIB	0:LIVING	13-17				18	10		2			1		
+TCGA-44-2662	64-69	Male	Reformed >15	44-59	IB	0:LIVING	4-8						3	2			1		
+TCGA-78-7149	69-74	Male	Current Smoker	103-118	IIIB	0:LIVING	4-8										1		
+TCGA-52-7810	59-64	Female	Reformed >15	15-29	IIB	0:LIVING	8-13			2		6		2			1	28	1
+TCGA-85-8666	64-69	Male	Current Smoker	44-59	IB	0:LIVING	4-8		2	3			3		5		1	22	
+TCGA-97-7546	74-80	Female	Reformed >15	15-29	IA	0:LIVING	4-8					5			5	10		27	
+TCGA-77-A5GA	74-80	Male	Reformed >15	88-103	IB	0:LIVING	4-8				9				3	5	1		
+TCGA-64-1676	54-59	Male	Current Smoker	59-74	IA	0:LIVING	17-21	6			38	14		3		10		52	
+TCGA-34-5927	69-74	Female			IA	0:LIVING	4-8			4	15	5			5		1	30	1
+TCGA-85-8287	69-74	Male	Current Smoker	44-59	IA	0:LIVING	4-8	3			19					6	1	22	
+TCGA-93-7348	74-80	Female	Reformed <=15	29-44	IA	0:LIVING	0-4				7							11	
+TCGA-NC-A5HL	69-74	Male	Reformed <=15	29-44	IIA	1:DECEASED	4-8					4				4	1		
+TCGA-69-7974	54-59	Female	Reformed <=15	29-44	IIIA	0:LIVING	13-17	6	2		25		4	2		11	1		
+TCGA-69-7979	69-74	Female	Current Smoker	15-29	IB	0:LIVING	38-42			5	51	18		5	9	23	2	94	
+TCGA-49-AAR9	59-64	Male	Current Smoker		IIB	1:DECEASED	17-21	5			25	7				15		45	1
+LUAD-S01413		Female	Reformed	44-59	IIB		8-13	5			20						1	28	
+TCGA-77-8128	59-64	Male	Current Smoker	103-118	IIIA	1:DECEASED	8-13	4		3	19	8	3	2		6	1		
+TCGA-33-4582	54-59	Male	Current Smoker	74-88	IA	1:DECEASED	4-8		2		11					8	1		
+LUAD_E00703		Female	Current Smoker	15-29	IB		0-4									3		7	
+TCGA-60-2721	69-74	Male	Reformed <=15	88-103	IB	0:LIVING	4-8		2	2	14				3		1		
+TCGA-60-2713	59-64	Male	Current Smoker	103-118	IB	0:LIVING	4-8		2			7			4		1		
+LUAD-F00089		Male	Reformed	44-59	IB		8-13				15								1
+TCGA-43-6771	85-90	Male	Reformed >15	29-44	IB	1:DECEASED	4-8									5			
+TCGA-75-6211		Female	Current Smoker	29-44	IB	1:DECEASED	8-13					11		2		8	1		
+TCGA-85-7950	43-48	Male	Current Smoker	15-29	IB	0:LIVING	4-8				15						1		
+TCGA-50-5930	43-48	Male			IIIA	1:DECEASED	29-34	7	3		44	19		4				69	
+TCGA-55-6981	48-54	Female	Reformed >15		IIIA	1:DECEASED	0-4		1										
+TCGA-43-2578	59-64	Female	Reformed <=15	59-74	IA	0:LIVING	8-13			2	15			2				25	
+TCGA-86-8673	59-64	Male	Current Smoker	44-59	IB	0:LIVING	13-17	4			25	8	3	2	5	7	1		1
+TCGA-50-5933	69-74	Male			IIIB	1:DECEASED	13-17	5			28	11		2	5				
+TCGA-69-7978	59-64	Male	Current Smoker	74-88	IIB	0:LIVING	17-21	6			30	9				14		47	1
+TCGA-49-6761	64-69	Female	Reformed <=15	44-59	IIIA	0:LIVING	4-8					4						18	
+TCGA-63-A5MI	64-69	Male	Reformed <=15	44-59	IIIA	0:LIVING	4-8							3	3		1		
+TCGA-22-5485	54-59	Female	Current Smoker	59-74	IA	1:DECEASED	4-8										1		
+TCGA-97-A4M6	43-48	Female	Never Smoke		IA	0:LIVING	0-4		1	1								7	
+TCGA-60-2708	59-64	Female	Reformed <=15	15-29	IIB	0:LIVING	4-8				14					5	1	19	
+TCGA-38-4626	54-59	Female	Current Smoker	29-44	IIA	0:LIVING	8-13					6		2		6			1
+TCGA-NK-A5D1	54-59	Male	Reformed >15	88-103	IIA	0:LIVING	0-4		2		10			2			1	14	
+LUAD_E01047		Male	Reformed	59-74	IIB		8-13		2		17	6					1		1
+TCGA-22-4601	69-74	Female	Current Smoker	59-74	IIIA	1:DECEASED	4-8		2		11					5	1		
+TCGA-50-5946	59-64	Male	Reformed <=15		IA	0:LIVING	17-21			4		10		3				41	
+TCGA-85-A510	69-74	Female	Current Smoker	44-59	IIB	0:LIVING	0-4		2						4		1		
+TCGA-78-7539	74-80	Female	Reformed >15	0-15	IIA	0:LIVING	13-17				22	9		2	8	8		32	1
+TCGA-66-2780	64-69	Male	Reformed >15	15-29	IB	1:DECEASED	0-4				9		2				1	16	
+TCGA-49-4490	43-48	Female	Reformed >15	0-15	IIIA	1:DECEASED	0-4		1				2				1		
+TCGA-55-8614	74-80	Male	Reformed >15	29-44	IB	0:LIVING	4-8	4		2	15			2	3		1	20	
+TCGA-49-4487	69-74	Female	Reformed <=15	29-44	IA	1:DECEASED	8-13			2		6			5		1		
+LUAD-RT-S01831		Male		29-44			8-13	4		2	17	8				11	1	29	
+TCGA-66-2777	69-74	Male	Reformed <=15	0-15	IB	0:LIVING	4-8	4				5	2				1	19	
+TCGA-44-6144	54-59	Male	Current Smoker	59-74	IA	0:LIVING	4-8					5	3			5	1	16	
+TCGA-21-5784	80-85	Female	Reformed >15	0-15	IB	0:LIVING	4-8	3				8					1		
+LUAD-2GUGK		Female	Reformed	29-44	IIA		4-8				15					12		29	
+TCGA-97-8172	74-80	Female	Reformed >15	15-29	IB	0:LIVING	4-8		2		14					6	1	23	2
+TCGA-58-8390	69-74	Male	Reformed <=15	118-132	IIA	0:LIVING	8-13	4	3	2	21		3		4	8	2	30	1
+TCGA-51-4079	69-74	Female	Reformed <=15	15-29	IB	1:DECEASED	8-13	7	2				3		5		1	25	1
+TCGA-86-7954	64-69	Female	Reformed >15	0-15	IB	0:LIVING	4-8			2		4	3		3	6	1		1
+TCGA-95-A4VN	59-64	Female	Reformed <=15	29-44	IIA	0:LIVING	13-17					8	4	2		14			1
+TCGA-56-7582	80-85	Male	Reformed >15		IB	0:LIVING	4-8	3	3				4		4		1		1
+LUAD-RT-S01818		Male		44-59			8-13			3	17		3		6		1	27	
+TCGA-92-8065	69-74	Female	Reformed >15	0-15	IIB	0:LIVING	4-8			3		5			3		1	19	
+TCGA-62-A46U	69-74	Female	Never Smoke		IIB	0:LIVING	0-4		1		5						1	6	
+TCGA-44-2655	64-69	Female	Reformed >15	29-44	IA	0:LIVING	4-8				10	4							
+TCGA-63-7021		Male	Reformed <=15	15-29	IA	0:LIVING	4-8				13						1		
+TCGA-39-5031	74-80	Female	Reformed <=15	59-74	IA	0:LIVING	17-21	7	3		29		5		6	11		53	
+TCGA-34-2609	80-85	Male	Reformed <=15	59-74	IIB	1:DECEASED	8-13		2	5	22	7	5		5		1	37	1
+TCGA-98-A538	64-69	Male	Reformed <=15	29-44	IIB	0:LIVING	17-21	6			27	8		4	6			45	1
+LUAD-NYU1021		Female	Current Smoker	29-44	IV		4-8			2	15					8	1	20	1
+TCGA-50-5932	74-80	Male			IIB	1:DECEASED	0-4				6	3		1			1	8	1
+TCGA-75-6212		Female	Never Smoke		IIA	0:LIVING	0-4				3								
+TCGA-43-7657	64-69	Female	Reformed <=15	44-59	IA	0:LIVING	0-4						2				1	12	
+LUAD-RT-S01808		Male		15-29			0-4		1		9	3				4	1	9	
+TCGA-56-6546	64-69	Male	Reformed <=15		IIA	0:LIVING	8-13										1		
+TCGA-55-6642	59-64	Male	Current Smoker		IB	0:LIVING	0-4					3				6			
+LUAD-NYU1027		Female	Never Smoke		IB		0-4									3			
+TCGA-55-8301	54-59	Male	Current Smoker	88-103	IB	0:LIVING	8-13			2	22	9			4	7	1	28	
+LUAD-D02085		Female	Reformed	15-29	IIA		8-13		3	2	19		4		4	7	1	23	
+TCGA-55-8096	64-69	Female	Current Smoker	103-118	IB	0:LIVING	4-8			2		4	2			4	1		
+TCGA-78-7159	59-64	Female	Reformed <=15	15-29	IA	0:LIVING	8-13					5							
+TCGA-56-7579	59-64	Male	Reformed <=15	0-15	IIIA	0:LIVING	4-8				11	5			3	6	1	18	
+LUAD-E00163		Female	Never Smoke		IA		0-4		1		5		2				1	5	
+LUAD-S01467		Male	Current Smoker	103-118	IB		4-8				24		5		4	7	1	26	1
+TCGA-56-7822	74-80	Male	Reformed <=15	59-74	IIB	0:LIVING	8-13	4		2	16			2			1	28	
+TCGA-90-7766	64-69	Female	Current Smoker	29-44	IA	0:LIVING	0-4				6				3	3	1	13	
+TCGA-55-7815	74-80	Male	Never Smoke		IB	0:LIVING	0-4				11								
+TCGA-NK-A7XE	64-69	Male	Reformed	74-88	IIIB	0:LIVING	0-4					3					1	12	
+TCGA-56-8308	74-80	Male	Reformed >15	59-74	IIB	0:LIVING	8-13				20	9					1		
+LUAD-AEIUF		Female	Reformed	59-74			4-8	3				8							
+LUAD-E01278		Female		29-44	IIA		4-8	3	2		13					5			
+TCGA-05-4249	64-69	Male	Reformed >15	44-59	IB	0:LIVING	8-13			3	17	6				6		22	2
+TCGA-05-4417	48-54	Female	Reformed <=15	44-59	IB	0:LIVING	8-13			2		7			4	8			1
+TCGA-64-5778	59-64	Male	Reformed <=15	59-74	IB	0:LIVING	13-17				22	15			4		1	31	1
+TCGA-L9-A8F4	59-64	Female	Current Smoker	0-15	IB	0:LIVING	21-25				29	11	4			20		60	
+TCGA-05-4426	69-74	Male	Reformed >15	15-29	IB	0:LIVING	0-4		2				3		3		1	6	
+TCGA-63-A5MY	59-64	Male	Reformed <=15	29-44	IA	0:LIVING	4-8			2	9					4	1	18	1
+TCGA-91-6831	64-69	Male	Current Smoker		IB	0:LIVING	8-13	5				8		3	5		1	24	
+TCGA-18-3421	64-69	Male	Reformed <=15	29-44	IB	0:LIVING	8-13					8					1		1
+TCGA-43-3394	48-54	Male	Current Smoker	15-29	IB	0:LIVING	4-8		3	2	11		2		4		1	18	
+TCGA-18-4721	69-74	Male	Reformed <=15		IA	0:LIVING	4-8					5					1	20	
+TCGA-85-7697	48-54	Male	Reformed >15	29-44	IIB	0:LIVING	4-8			3							1		1
+TCGA-97-7547	64-69	Female	Reformed >15	29-44	IB	0:LIVING	4-8									5			
+TCGA-55-8510	54-59	Female	Current Smoker		IB	0:LIVING	8-13	6				9	3				1	28	1
+LUAD-B00631		Male	Reformed	59-74	IIA		4-8				11		2		4	6	1	19	
+TCGA-55-8511	69-74	Female	Current Smoker	44-59	IB	0:LIVING	13-17	8			27	15			5			38	2
+TCGA-55-A57B	80-85	Female	Never Smoke		IA	0:LIVING	0-4		2		5			1			1		
+LUAD-B01145		Male	Reformed	29-44	IIIA		4-8					5						21	1
+TCGA-52-7812	64-69	Male	Reformed <=15	29-44	IIA	1:DECEASED	4-8									8			
+TCGA-18-3410	80-85	Male	Reformed >15		IIB	1:DECEASED	4-8										1		
+LUAD-RT-S01301		Female	Current Smoker	44-59	IA		8-13	6	3	2		8		2	4	11	1	30	
+TCGA-MP-A4T9	54-59	Female	Reformed <=15	15-29	IIIA	1:DECEASED	0-4		2		5		2		3	2	1		
+TCGA-77-7335	59-64	Female	Reformed >15	44-59	IIIB	1:DECEASED	4-8		2		15						1		
+LUAD-F00057		Male	Reformed	29-44	IB		4-8				12				3		1	19	2
+TCGA-55-7727	69-74	Male	Current Smoker		IIIA	0:LIVING	4-8				14			2			1	24	
+TCGA-MP-A4TF	54-59	Female	Reformed <=15	29-44	IIA	1:DECEASED	8-13							2	6	8	1	36	1
+TCGA-68-8251	74-80	Male	Reformed >15	44-59	IB	0:LIVING	8-13		2					2	5		1	35	
+TCGA-05-5423	64-69	Male	Reformed >15	59-74	IIB	0:LIVING	4-8										1	14	
+TCGA-55-A4DG	69-74	Male	Reformed <=15	88-103	IA	0:LIVING	17-21	9	4		27		7	2		15	2	46	1
+TCGA-78-7147	64-69	Female	Current Smoker	44-59	IIB	1:DECEASED	8-13				16			2		7	1		
+TCGA-43-6143	69-74	Male	Reformed <=15	103-118	IB	0:LIVING	8-13	4	2	2	14	5					1		
+TCGA-44-3396	69-74	Female	Current Smoker	44-59	IIIA	0:LIVING	4-8		2		12		3				1		
+TCGA-64-5774	59-64	Male	Reformed <=15	44-59	IB	0:LIVING	0-4				10		3			7		14	
+TCGA-78-7161	64-69	Female	Reformed <=15	15-29	IIB	0:LIVING	4-8					5				4		16	
+TCGA-97-8174	64-69	Male	Reformed >15	29-44	IIA	1:DECEASED	4-8									6			
+LUAD-RS5Q7		Male	Reformed	0-15	IIB		0-4					2							
+TCGA-55-8204	85-90	Female	Reformed >15		IB	0:LIVING	4-8			3				2		6	1	22	
+TCGA-44-6775	69-74	Female	Reformed <=15	15-29	IB	0:LIVING	0-4	2	2						2		1	9	
+TCGA-44-A47G	69-74	Female	Reformed <=15	15-29	IA	0:LIVING	0-4				8		2	1			1	9	
+TCGA-33-4586	54-59	Male	Reformed <=15	103-118	IIIA	1:DECEASED	8-13					8		2	6		1		
+TCGA-97-A4M0	59-64	Female	Reformed <=15	29-44	IB	0:LIVING	8-13	6		4	17		3		4	14	1	32	
+TCGA-63-A5MW	74-80	Male	Reformed <=15	59-74	IB	0:LIVING	13-17	5			20			2		11	1		1
+TCGA-91-8499	74-80	Female	Current Smoker	88-103	IA	0:LIVING	8-13	3		2			3		6	7	1	20	
+LUAD-F00282		Male			IIA		13-17				21	8			6		1	35	
+TCGA-21-1076	54-59	Female	Reformed <=15	29-44	IB	0:LIVING	8-13				15	7		2	4		1		
+TCGA-43-A56V	59-64	Male	Reformed <=15	44-59	IIIA	0:LIVING	4-8				11	4		2		5	1	18	
+TCGA-85-7844	69-74	Male	Current Smoker	29-44	IB	0:LIVING	4-8						2				1	16	
+TCGA-60-2698	59-64	Male	Reformed <=15		IIB	1:DECEASED	34-38	10	3	5	45	17				14		84	
+TCGA-85-A4JC	80-85	Male	Current Smoker	15-29	IIA	0:LIVING	4-8				11	6			3	5	1	25	
+TCGA-85-8071	48-54	Male	Current Smoker	29-44	IIA	0:LIVING	8-13	4	2	3			3		5	6	1		
+TCGA-33-A5GW	64-69	Male	Reformed <=15	44-59	IIA	0:LIVING	4-8		2			4			5		1	18	1
+TCGA-78-7536	64-69	Male	Reformed <=15	29-44	IIIA	1:DECEASED	17-21	6		3	34	12		2		10		39	
+TCGA-80-5607		Female	Reformed >15	15-29	IIB	0:LIVING	0-4	4		2									
+TCGA-77-7140	64-69	Female	Never Smoke		IIB	1:DECEASED	4-8		2						5	6	1	25	
+TCGA-22-5478	74-80	Male	Reformed <=15		IB	1:DECEASED	4-8		2		11				3		1		
+TCGA-18-3411	59-64	Female	Current Smoker	44-59	IIIA	0:LIVING	8-13	4	2		19				4		1	26	1
+LUAD_E00945		Female	Current Smoker	15-29	IA		0-4							1					
+TCGA-05-4427	64-69	Female	Reformed <=15	0-15	IIB	0:LIVING	29-34	8		4	42	14		3		17		62	
+LUAD-RT-S01702		Female	Never Smoke		IB		13-17	5			21	11	4		5			42	
+TCGA-55-8089	54-59	Male	Current Smoker	88-103	IA	0:LIVING	34-38				51	19	8		9	17		75	
+LUAD-RT-S01477		Male	Current Smoker	88-103	IIIA		8-13	5	3		18	7	3			7	2	29	1
+TCGA-55-8085	59-64	Male	Current Smoker		IA	0:LIVING	4-8	5			17	5	3				1	21	1
+TCGA-80-5608		Female	Current Smoker	15-29	IA	0:LIVING	4-8	4			10		2			4		18	
+TCGA-37-5819	59-64	Male	Reformed <=15	44-59	IIIA	0:LIVING	21-25	6			26	14			6				1
+LUAD-CHTN-MAD06-00678		Male					8-13		2		15					7	1	26	1
+TCGA-49-4510	48-54	Female	Current Smoker	44-59	IIB	1:DECEASED	0-4				4				2				
+TCGA-67-3774	69-74	Female	Reformed >15		IB	0:LIVING	0-4				10		2			4		14	
+TCGA-39-5024	64-69	Female	Reformed <=15	29-44	IIIA	0:LIVING	4-8	4	2						3		1	18	1
+TCGA-L3-A524	43-48	Female	Current Smoker	15-29	IIB	0:LIVING	8-13		2								1		1
+TCGA-55-7728	59-64	Female	Reformed <=15	29-44	IB	0:LIVING	0-4				10	4				4			
+LUAD-RT-S01866		Male		44-59			0-4	3								4			
+TCGA-94-A4VJ	69-74	Female	Reformed <=15	29-44	IA	0:LIVING	8-13	5		3	24	9	3	2		8	1	30	
+LUAD-S01407		Male	Current Smoker	29-44	IA		4-8		2				2				1		1
+TCGA-55-6972	69-74	Male	Current Smoker		IB	0:LIVING	4-8				16				7			22	
+TCGA-96-A4JK	64-69	Male	Current Smoker	103-118	IIA	0:LIVING	13-17	7		3		8		4	5	9	1		1
+TCGA-55-7724	74-80	Female	Reformed <=15	44-59	IB	0:LIVING	4-8				14						1	21	1
+TCGA-56-8201	69-74	Male	Reformed <=15		IIB	0:LIVING	4-8				9		2		3		1	16	
+TCGA-69-7760	69-74	Male	Never Smoke		IIB	0:LIVING	0-4			2	9						1		
+TCGA-56-7731	64-69	Female	Reformed <=15	88-103	IB	0:LIVING	8-13					5							1
+TCGA-55-8205	74-80	Female	Reformed <=15	29-44	IIB	0:LIVING	13-17		2	3	27					10	1	39	
+TCGA-64-1681	59-64	Female	Reformed >15		IA	1:DECEASED	0-4				6						1	10	
+TCGA-J2-A4AE	74-80	Female	Never Smoke		IA	0:LIVING	0-4		1			2						7	
+TCGA-86-7713	69-74	Male	Never Smoke		IIA	0:LIVING	4-8				13		2	2					
+TCGA-68-7755	59-64	Female	Reformed <=15	74-88	IIA	0:LIVING	4-8			2						9		22	
+TCGA-99-8032	59-64	Male	Current Smoker	88-103	IA	0:LIVING	13-17	4			21	8	3			8		31	
+TCGA-NC-A5HD	74-80	Male	Reformed <=15	44-59	IIB	1:DECEASED	13-17	5		3	22	6		3			1	31	1
+TCGA-63-5131		Male	Reformed <=15	44-59	IIB	1:DECEASED	8-13	4			21	7			5		1		1
+TCGA-43-A475	64-69	Female	Reformed <=15	88-103	IIB	0:LIVING	4-8		2				3		4		1	21	
+TCGA-55-7726	69-74	Female	Reformed >15	29-44	IA	0:LIVING	0-4				7		3		3		1	13	
+TCGA-78-8640	59-64	Male	Current Smoker	44-59	IIA	0:LIVING	21-25				25	9		2	6	10		40	
+TCGA-86-8055	74-80	Male	Current Smoker	59-74	IIA	0:LIVING	0-4	2	1			4		1			1		
+TCGA-44-7671	59-64	Male	Reformed >15		IB	0:LIVING	4-8	3		2	15	6				7	1		
+TCGA-L9-A444	59-64	Female	Current Smoker	0-15	IA	0:LIVING	13-17			3	22	10				14	1		
+TCGA-56-8625	64-69	Female	Current Smoker		IIIA	0:LIVING	13-17	5	2	3	19		4		5		1		
+TCGA-77-8133	69-74	Male	Current Smoker	15-29	IIA	1:DECEASED	8-13		2	2	25	8					1	28	
+TCGA-MP-A4T8	64-69	Male	Reformed >15	15-29	IIIA	1:DECEASED	0-4									4			
+TCGA-86-8669	59-64	Male	Current Smoker	44-59	IA	0:LIVING	0-4					6			3			16	
+TCGA-93-A4JN	69-74	Male	Reformed >15	29-44	IV	0:LIVING	0-4		2					1	2		1		
+LUAD_E00522		Female	Current Smoker	0-15	IB		34-38	10			59	18	6	3		19		81	
+TCGA-77-A5G6	64-69	Male	Current Smoker	74-88	IIIA	1:DECEASED	13-17				22			2		10	1		
+TCGA-77-8154	64-69	Male	Reformed <=15	29-44	IA	0:LIVING	4-8		2	2					3	6	1	20	
+TCGA-77-8156	59-64	Male	Current Smoker	44-59	IB	0:LIVING	4-8							2			1	18	
+TCGA-44-6146	59-64	Male	Reformed >15	15-29	IIB	0:LIVING	0-4			1			1						
+TCGA-21-1082	59-64	Male			IB	0:LIVING	8-13				17		3		6	7	1		2
+TCGA-LA-A446	64-69	Male	Current Smoker	15-29	IA	0:LIVING	8-13	4		2	20	5		2	5	9	1	29	
+TCGA-50-8457	59-64	Female	Reformed <=15	29-44	IA	0:LIVING	0-4		1	1			2					8	
+TCGA-21-1081	64-69	Male	Reformed <=15	44-59	IIB	1:DECEASED	4-8						2						
+TCGA-18-3407	69-74	Male	Reformed >15	29-44	IB	1:DECEASED	0-4		2				3		3		1		
+TCGA-44-3398	74-80	Female	Reformed <=15	59-74	IA	0:LIVING	4-8	3				7							
+TCGA-34-5236	59-64	Male			IIB	1:DECEASED	4-8		2			4					2		1
+TCGA-62-8395	80-85	Female	Never Smoke		IIB	0:LIVING	0-4	3			8							13	
+TCGA-90-7767	54-59	Male	Reformed >15	15-29	IIB	0:LIVING	0-4		1								1		
+TCGA-77-7142	59-64	Female	Reformed <=15	44-59	IB	0:LIVING	4-8	3						2			1	20	
+TCGA-18-5595	48-54	Male	Never Smoke		IB	1:DECEASED	4-8											18	
+TCGA-98-8022	59-64	Male	Reformed <=15	103-118	IA	0:LIVING	4-8	3		2	16							23	
+TCGA-63-A5MV	64-69	Male	Reformed <=15	44-59	IIA	0:LIVING	0-4				8	3		2			1		
+LUAD-E00918		Female	Current Smoker	44-59	IA		13-17		2		28	9	5		6		1	43	
+TCGA-44-6145	59-64	Female	Reformed <=15	74-88	IA	0:LIVING	8-13	4				6		2			1	24	
+TCGA-86-7701	64-69	Male	Never Smoke		IV	0:LIVING	4-8	3				4				6	1		
+TCGA-39-5037	64-69	Male	Current Smoker	15-29	IIA	0:LIVING	4-8	3							5		1		
+TCGA-78-7154	69-74	Male	Reformed <=15	103-118	IIIA	1:DECEASED	4-8			2					3	6	1		
+TCGA-55-8619	69-74	Female	Never Smoke		IIB	0:LIVING	0-4		1		3						1		
+TCGA-22-5480	64-69	Female	Reformed <=15	44-59	IA	1:DECEASED	4-8						2				1		
+TCGA-44-2668	48-54	Male	Reformed <=15	59-74	IB	0:LIVING	8-13	5			23	6	3				1		
+TCGA-60-2719	80-85	Female	Reformed >15	0-15	IB	0:LIVING	4-8						3		3		1	21	
+TCGA-62-8397	69-74	Female	Never Smoke		IIB	0:LIVING	0-4			1	5								
+TCGA-86-7953	64-69	Female	Never Smoke		IA	0:LIVING	0-4		1		5		2		2	5	1		
+TCGA-43-7658	74-80	Female	Reformed <=15	0-15	IA	0:LIVING	4-8		2					2	3		1		
+TCGA-94-A5I4	59-64	Male	Reformed <=15	74-88	IIA	0:LIVING	4-8		2					2	5		1		
+TCGA-XC-AA0X	74-80	Female	Current Smoker	29-44	IA	1:DECEASED	4-8					4			4	5	1		
+TCGA-93-A4JQ	48-54	Male	Reformed >15		IA	0:LIVING	0-4												1
+TCGA-94-8491	69-74	Male	Reformed >15	44-59	IIA	0:LIVING	17-21	5	3		24		4		8	12	1		
+TCGA-75-7031		Female	Reformed >15	0-15	IB	0:LIVING	4-8					4		2			1		
+TCGA-39-5016	43-48	Male	Reformed <=15	29-44	IIA	0:LIVING	8-13	4				7				6	1	30	1
+LUAD-D02185		Female	Reformed	29-44	IIA		8-13	4			18	7		3		13	1	34	
+TCGA-49-4514	74-80	Female	Reformed >15	59-74	IA	0:LIVING	8-13	4						4		7	1		
+LUAD_E01086		Female	Reformed	15-29	IIA		0-4			2		3						13	1
+TCGA-21-5783	74-80	Male	Reformed >15		IB	1:DECEASED	8-13	6	3		19	6	4		7	9	1	33	1
+TCGA-33-4533	74-80	Female	Reformed <=15	44-59	IB	0:LIVING	8-13		2						6		1	22	
+TCGA-78-7153	64-69	Female	Reformed <=15	15-29	IB	0:LIVING	0-4	3			10		2					16	
+TCGA-86-8279	43-48	Male	Never Smoke		IIA	0:LIVING	13-17			5	21	16					1	42	
+TCGA-73-4676	43-48	Male	Reformed <=15	44-59	IIA	0:LIVING	0-4				6				3		1		
+TCGA-60-2723	69-74	Female	Reformed <=15	44-59	IB	0:LIVING	4-8	5				6				6	1	24	
+TCGA-22-0944	59-64	Male	Current Smoker	29-44	IB	1:DECEASED	0-4										1		
+TCGA-34-5239	74-80	Male			IIIA	0:LIVING	4-8					5				7	1	24	
+TCGA-60-2720	59-64	Female	Reformed <=15	103-118	IB	0:LIVING	13-17			2						9	1		1
+TCGA-78-7537	69-74	Male	Reformed >15	15-29	IB	1:DECEASED	4-8					4						12	
+LUAD-LC15C		Male	Reformed	0-15	IA		8-13		2	3	18		3		5	7	1	25	
+TCGA-55-7907	74-80	Male	Reformed >15	74-88	IIA	0:LIVING	29-34	9		4	46	18			7			78	
+TCGA-63-A5MH	64-69	Male	Reformed	29-44	IA	0:LIVING	4-8	4			15	6	3			5	1	25	1
+TCGA-86-8278	59-64	Female	Never Smoke		IIB	0:LIVING	0-4	2		3	11								
+TCGA-33-4587	59-64	Female	Reformed <=15		IB	1:DECEASED	4-8		2			4	3				1		1
+LUAD-RT-S01777		Female	Current Smoker	44-59	IIIB		21-25	5				14		3		14		45	
+TCGA-63-A5MS	74-80	Male	Reformed >15	0-15	IB	0:LIVING	8-13		3	3	27		3				2	29	1
+LUAD-U6SJ7		Male	Reformed	15-29	IA		4-8			2	11					5			
+LUAD-NYU592		Male	Reformed	44-59	IIIA		0-4		1		4			1		2			
+TCGA-05-4405	69-74	Female	Reformed <=15	59-74	IB	0:LIVING	8-13	4			21	7				9	1	31	
+LUAD-LIP77		Female	Reformed	44-59	IA		13-17	7	2		31	7	5	3		15	1	41	
+TCGA-56-A5DS	69-74	Female	Current Smoker	44-59	IB	0:LIVING	4-8								3		1	19	
+TCGA-05-4389	69-74	Male	Reformed >15	29-44	IA	0:LIVING	4-8	3				5							
+TCGA-66-2754	64-69	Male	Reformed <=15	29-44	IIIA	0:LIVING	4-8		2					2			1		
+TCGA-05-4398	43-48	Female	Current Smoker	59-74	IIIB	0:LIVING	21-25	7				20		3				49	
+LUAD-S01373		Male	Current Smoker	44-59	IIIA		0-4				5							8	1
+TCGA-56-5898	64-69	Male	Current Smoker		IA	0:LIVING	0-4						2			4	1		1
+TCGA-56-A4BW	54-59	Male	Reformed <=15	118-132	IIA	0:LIVING	4-8		2		12			2	4		1		
+TCGA-77-8145	69-74	Male	Current Smoker	44-59	IIIB	1:DECEASED	0-4	3			10		3					15	
+LUAD-S01354		Female	Current Smoker	15-29	IA		4-8						2				1		1
+TCGA-66-2742	69-74	Male	Reformed >15	29-44	IV	0:LIVING	4-8				11	6				7	1	17	1
+TCGA-55-8203	64-69	Female	Current Smoker	44-59	IA	0:LIVING	8-13	5			19	6				8		36	1
+TCGA-67-3770	69-74	Female	Reformed >15		IA	0:LIVING	4-8							2			1		
+TCGA-56-1622	54-59	Male	Reformed <=15	74-88	IB	1:DECEASED	4-8	5	2		10				5		1		
+LUAD-NYU605		Female	Reformed	29-44	IB		0-4									1			
+TCGA-44-8117	54-59	Female	Reformed <=15	44-59	IB	0:LIVING	21-25			3	28	16				14		49	
+LUAD_E00565		Male	Reformed	29-44	IB		21-25	6			33	11	5			11			
+TCGA-92-8063	48-54	Male	Current Smoker	74-88	IIIA	0:LIVING	8-13		2		17	5	3		5	7	1		
+TCGA-50-8459	64-69	Male	Current Smoker	0-15	IIB	0:LIVING	0-4				7					5		10	
+TCGA-MP-A4TD	69-74	Male	Reformed >15	15-29	IIIA	1:DECEASED	0-4				6	3							
+TCGA-18-3412	48-54	Male	Reformed <=15	15-29	IB	1:DECEASED	0-4		2		10		2			4			
+TCGA-49-4512	64-69	Female	Never Smoke		IIIA	1:DECEASED	0-4	2								5			
+LUAD-RT-S01721		Male	Reformed	44-59	IB		8-13					8				7		30	1
+TCGA-22-1005	59-64	Male	Reformed <=15	29-44	IA	1:DECEASED	8-13									7			
+LUAD-RT-S01840		Male		103-118			4-8				8								1
+TCGA-55-7910	48-54	Female	Reformed <=15	15-29	IIA	0:LIVING	8-13				16	10			5	9	1		
+TCGA-46-6025	69-74	Male	Reformed <=15		IIB	0:LIVING	4-8					7	2		4		1		1
+TCGA-56-A5DR	80-85	Male	Never Smoke		IA	0:LIVING	29-34	14	3	3	46	16		3				81	
+TCGA-99-8025	69-74	Female	Reformed <=15	15-29	IIIA	0:LIVING	13-17		2		20	13	5	2		9	1	37	
+TCGA-73-4662	64-69	Female	Reformed >15	0-15	IA	0:LIVING	4-8					7				7			
+TCGA-52-7809	69-74	Male	Current Smoker	59-74	IB	1:DECEASED	4-8			2	20						1		
+TCGA-85-8354	48-54	Male	Current Smoker	29-44	IB	0:LIVING	4-8	4		2	10			2			1	16	
+TCGA-91-8496	59-64	Female	Never Smoke		IB	0:LIVING	0-4		1		5							8	
+LUAD-F00365		Male			IIB		13-17	5			28	9		2	5	10	1	36	
+TCGA-05-4432	64-69	Male	Current Smoker	44-59	IIB	0:LIVING	17-21				28			2	6	12			1
+TCGA-21-A5DI	74-80	Male	Reformed >15		IA	0:LIVING	0-4				8						1		
+TCGA-60-2722	64-69	Male	Reformed <=15	88-103	IIB	0:LIVING	8-13					8					1		
+TCGA-85-8584	69-74	Male	Current Smoker	44-59	IIA	0:LIVING	4-8											19	1
+TCGA-85-A4CL	64-69	Male	Current Smoker	29-44	IA	0:LIVING	21-25				38				7			49	1
+TCGA-05-4418	64-69	Male	Current Smoker	15-29	IIIA	1:DECEASED	4-8					5	3	2	4	6			1
+TCGA-33-4589	59-64	Female	Current Smoker	44-59	IIB	1:DECEASED	0-4					3	3		2				
+TCGA-38-4630	74-80	Female	Never Smoke		IB	1:DECEASED	0-4										1		
+TCGA-69-8253	59-64	Female	Reformed <=15	0-15	IIA	0:LIVING	4-8			2	10		2					14	1
+TCGA-78-7163	59-64	Male	Reformed <=15	29-44	IB	0:LIVING	0-4									4		4	
+TCGA-63-A5MN	74-80	Female	Never Smoke		IIB	1:DECEASED	0-4	2		1									
+LUAD-RT-S01703		Male	Reformed	29-44	IA		4-8	3								6			
+TCGA-63-6202		Male	Reformed <=15	29-44	IIA	0:LIVING	8-13	4		2	19	8					1	30	
+TCGA-78-7156	59-64	Male	Reformed >15	74-88	IV	1:DECEASED	8-13	4		2	16					8			
+TCGA-33-4532	64-69	Male	Current Smoker	44-59	IB	0:LIVING	8-13	4			17				4		1		1
+TCGA-22-1012	80-85	Female	Reformed <=15	59-74	IB	1:DECEASED	4-8		2		13				4		1		
+TCGA-77-7139	54-59	Male	Reformed <=15	0-15	IIB	0:LIVING	4-8		2		14		3				1	22	
+TCGA-55-6987	74-80	Male	Reformed <=15		IA	0:LIVING	4-8	3				6							
+TCGA-77-A5G7	59-64	Male	Current Smoker	59-74	IA	1:DECEASED	0-4					3				4			
+TCGA-66-2767	59-64	Male	Reformed <=15	29-44	IIIB	0:LIVING	8-13			4		6			4				
+TCGA-68-8250	64-69	Male	Reformed <=15	44-59	IA	0:LIVING	8-13				16	10				7	1	28	
+TCGA-MP-A4TH	69-74	Female	Reformed >15	15-29	IA	0:LIVING	0-4												1
+TCGA-66-2734	59-64	Female	Reformed <=15	29-44	IB	0:LIVING	4-8			2							1	18	
+TCGA-56-6545	74-80	Female	Reformed <=15		IB	0:LIVING	8-13			2	14			2	5		1		
+TCGA-NJ-A4YQ	64-69	Female	Reformed <=15	29-44	IA	0:LIVING	29-34				43	21						73	
+TCGA-56-8504	69-74	Male	Reformed <=15		IB	0:LIVING	4-8	4			12					5	1		
+TCGA-L9-A443	59-64	Female	Reformed <=15	88-103	IA	0:LIVING	4-8	3								7			
+TCGA-66-2763	59-64	Female	Reformed <=15	29-44	IB	0:LIVING	8-13					9					1		
+TCGA-22-5482	80-85	Male	Reformed <=15	59-74	IB	1:DECEASED	4-8			2	13						1	17	
+LUAD-S01306		Female	Current Smoker	59-74	IIB		8-13	5				7		2			1	29	
+TCGA-66-2791	64-69	Male	Reformed <=15	15-29	IIIB	1:DECEASED	8-13					9		2			1	27	
+TCGA-77-8130	64-69	Male	Reformed <=15	29-44	IIB	0:LIVING	4-8	4	2						3	5	1	17	
+TCGA-98-7454	69-74	Male	Reformed >15	59-74	IB	0:LIVING	4-8	3			10							16	
+TCGA-62-A46Y	69-74	Female	Never Smoke		IIIA	1:DECEASED	0-4		1		5	2					1		
+TCGA-56-7221	74-80	Male	Reformed >15	15-29		0:LIVING	4-8		2	4	18	5				8	1		
+TCGA-34-2605	74-80	Male	Reformed <=15	59-74	IIIB	1:DECEASED	8-13				16				4			26	1
+TCGA-79-5596		Male	Reformed <=15	29-44	IIIA	0:LIVING	4-8		3	2	15	4		2			1	20	
+TCGA-62-8394	64-69	Female	Never Smoke		IIIB	1:DECEASED	4-8								4		1	13	
+TCGA-91-6835	80-85	Female	Reformed >15	15-29	IA	0:LIVING	0-4	3			10	4						11	
+TCGA-35-3615	54-59	Male	Never Smoke		IB	0:LIVING	0-4				6				2				
+TCGA-NJ-A4YP	48-54	Male	Reformed	59-74	IB	0:LIVING	13-17	7	2			10		2		10		44	1
+TCGA-39-5022	74-80	Male	Reformed <=15	29-44	IB	1:DECEASED	8-13					7		3			1	23	
+TCGA-85-8052	48-54	Male	Current Smoker	29-44	IIB	0:LIVING	0-4		2								1	14	
+TCGA-NC-A5HM	74-80	Male	Reformed >15	44-59	IB	0:LIVING	4-8				14					6	1		
+TCGA-63-A5MJ	54-59	Male	Current Smoker		IIB	0:LIVING	4-8	3			13	6					1		
+LUAD-B01970		Male	Reformed	0-15	IIIA		4-8							2			1	19	
+TCGA-50-6591	59-64	Female	Never Smoke		IV	1:DECEASED	0-4							1			1		
+TCGA-66-2800	69-74	Male	Reformed <=15	74-88	IIIB	0:LIVING	4-8					5				5	1		
+TCGA-33-AASB	64-69	Male	Current Smoker	29-44	IB	1:DECEASED	8-13			2	22	8			5	8	1		1
+TCGA-46-6026	80-85	Male	Reformed >15		IIB	0:LIVING	4-8	6		2					3	7	1	19	
+TCGA-77-7338	59-64	Male	Current Smoker	29-44	IB	1:DECEASED	0-4		2		11	6	2				1		
+TCGA-05-4433	80-85	Male	Reformed >15	0-15	IB	0:LIVING	0-4		2		7		4		3		1	5	
+TCGA-MP-A4SW	48-54	Male	Reformed >15	15-29	IIB	1:DECEASED	0-4					3		1					
+TCGA-66-2781	64-69	Male	Reformed <=15	74-88	IB	0:LIVING	4-8								3		1		
+TCGA-73-A9RS	38-43	Male	Current Smoker	0-15	IIB	0:LIVING	25-29	11	3	3	36	10	6	3	7	21		67	
+TCGA-49-4505	59-64	Female	Reformed <=15	74-88	IIB	1:DECEASED	4-8		2		17	6	3			5	1	22	
+TCGA-58-8386	74-80	Male	Current Smoker	59-74	IV	1:DECEASED	4-8			2							1		
+TCGA-86-8281	74-80	Male	Reformed >15	29-44	IA	0:LIVING	4-8	4						2				24	1
+TCGA-33-4538	64-69	Male	Current Smoker	44-59	IIIA	1:DECEASED	4-8		2	2	9		2		3	5	1	19	1
+TCGA-39-5034	69-74	Female	Reformed <=15	74-88	IIB	1:DECEASED	13-17					9			5	9	1	35	1
+TCGA-71-6725	43-48	Female	Current Smoker		IB	0:LIVING	0-4							1				9	
+TCGA-55-5899	54-59	Male	Current Smoker		IA	0:LIVING	8-13				20					8	1		
+TCGA-55-7576	54-59	Male	Current Smoker		IB	0:LIVING	8-13					10	3	2		9	1		
+TCGA-70-6722	43-48	Male	Never Smoke		IIIA	0:LIVING	8-13					5		2				26	
+TCGA-53-A4EZ	59-64	Male	Reformed >15	29-44	IIA	0:LIVING	13-17		2		24	14		2	8	10	1	42	1
+TCGA-55-7284	69-74	Male	Reformed >15		IIB	0:LIVING	0-4	3			5								
+LUAD-RT-S01832		Female		29-44			0-4				11					3			
+TCGA-21-1075	54-59	Male	Current Smoker	74-88	IIB	0:LIVING	4-8				12				3		1		
+TCGA-55-7995	69-74	Female	Reformed <=15	59-74	IA	0:LIVING	17-21	6			27	15			6				1
+TCGA-55-1595	69-74	Female	Reformed <=15		IA	0:LIVING	8-13	5				7		2					
+LUAD-E00934		Male		15-29	IB		17-21	9			31	12						42	1
+TCGA-85-A50M	43-48	Male	Reformed <=15	15-29	IIA	0:LIVING	0-4	2	2		7		2		2		1	8	
+TCGA-22-5491	69-74	Male	Current Smoker	44-59	IA	1:DECEASED	8-13	4				7	3		5		1	37	1
+TCGA-85-A511	59-64	Male	Current Smoker	29-44	IIB	0:LIVING	4-8	3						2			1		
+TCGA-86-6851	69-74	Female	Current Smoker	44-59	IIA	0:LIVING	25-29	6			31	13			7	18		51	
+TCGA-22-4596	64-69	Female	Reformed <=15	29-44	IB	1:DECEASED	4-8					4				6			
+TCGA-35-4122	64-69	Male	Reformed <=15	44-59	IA	0:LIVING	8-13			4	15			2	4		1		1
+TCGA-39-5027	69-74	Male	Reformed <=15	29-44	IB	0:LIVING	8-13		2	2					6	8	1	22	1
+TCGA-67-3773	80-85	Female	Reformed >15		IB	0:LIVING	0-4	2			8	3				3			
+TCGA-55-7913							8-13	6	2		21	6					2	26	
+LUAD-B02050		Female	Reformed	29-44	IIB		13-17				22	11		2		15	1	37	
+TCGA-44-6774	54-59	Female	Current Smoker	15-29	IIIA	0:LIVING	8-13					6					1		
+TCGA-77-7463	74-80	Male	Reformed <=15	29-44	IB	1:DECEASED	8-13	5				6			5		1		
+TCGA-78-7150	59-64	Male	Reformed <=15	29-44	IIB	1:DECEASED	8-13		2	2	24	9					1	30	
+TCGA-63-A5MM	64-69	Female	Reformed >15	29-44	IIB	1:DECEASED	29-34	9		3	50	17	5		10	14		87	
+TCGA-85-8352	64-69	Male	Current Smoker	44-59	IIIA	0:LIVING	4-8		2		14	6	3	2		6	1	26	
+TCGA-63-A5MU	43-48	Male	Reformed <=15	15-29	IIB	1:DECEASED	4-8			2	11		3			7	1		
+TCGA-96-8169	64-69	Female	Reformed <=15	29-44	IA	0:LIVING	4-8			2	11		3				1		1
+TCGA-MP-A4TI	69-74	Male	Reformed >15	29-44	IIA	1:DECEASED	4-8				14	4				5	1		1
+TCGA-21-5782	64-69	Female	Reformed <=15	44-59	IB	1:DECEASED	8-13	6	2	2		6			5		1		
+TCGA-92-8064	54-59	Male	Reformed <=15	29-44	IB	0:LIVING	4-8	3			13	4					1		
+TCGA-50-6592	69-74	Female	Reformed <=15		IB	1:DECEASED	8-13	3		3	19					5	1	21	
+TCGA-33-AAS8	59-64	Female	Reformed <=15	59-74	IA	1:DECEASED	4-8				12			2	3	7	1	21	
+TCGA-55-8512	38-43	Male	Current Smoker	15-29	IV	0:LIVING	0-4					2							
+TCGA-56-8307	54-59	Female	Current Smoker	29-44	IIB	0:LIVING	8-13	4			24	6	4	2		9	1	35	
+TCGA-55-7573	69-74	Female	Reformed >15		IA	0:LIVING	0-4		1		5						1	7	
+TCGA-64-1677	74-80	Female	Current Smoker	44-59	IIIA	1:DECEASED	4-8	4					3			6	1		
+TCGA-55-6975	59-64	Male	Reformed <=15		IIB	1:DECEASED	0-4		1		5		2			3	1	8	
+TCGA-37-4133	59-64	Male	Reformed <=15	29-44	IIIA	0:LIVING	4-8									5	1		
+TCGA-63-7020		Male	Reformed <=15	44-59	IA	0:LIVING	4-8	3	2			6					1		
+TCGA-85-6175	59-64	Female	Never Smoke		IIB	0:LIVING	0-4			1				1					
+LUAD-F00162		Male	Reformed	44-59			17-21	6		3	27	16		3				40	1
+TCGA-56-7580	80-85	Male	Reformed >15		IB	0:LIVING	0-4				7	3					1		
+TCGA-49-6745	80-85	Male	Reformed <=15	15-29	IIIA	0:LIVING	4-8				11								
+LUAD-NYU129		Male	Reformed	15-29	IA		0-4								1				
+TCGA-L3-A4E7	69-74	Male	Current Smoker	15-29	IB	0:LIVING	0-4								3		1		1
+TCGA-78-7145	48-54	Female	Reformed <=15	15-29	IV	1:DECEASED	4-8	5	2		12	5		2		6	1	22	
+TCGA-86-8076	38-43	Male	Never Smoke		IA	0:LIVING	0-4									4		8	
+TCGA-85-A512	43-48	Male	Current Smoker	15-29	IIA	0:LIVING	4-8	3		2					3	5	1	21	
+TCGA-73-4677	69-74	Male	Reformed >15		IA	1:DECEASED	4-8				13	7				8		23	1
+LUAD-CHTN-3090346		Male					13-17	7	2		26		3		4			42	
+LUAD-D00147		Female	Reformed	0-15	IB		0-4				7								
+TCGA-77-8139	69-74	Male	Current Smoker	44-59	IIB	0:LIVING	4-8		2		12	4	3		3	6	1		
+TCGA-80-5611		Male	Reformed <=15	59-74	IB	0:LIVING	4-8			2	12	6			4	6			
+TCGA-91-A4BC	59-64	Male	Reformed <=15	29-44	IIA	0:LIVING	13-17			4	22	8				11	1	32	1
+TCGA-55-1594	64-69	Male	Current Smoker		IIIA	0:LIVING	4-8	3	2			3	2		3		1	13	
+TCGA-21-1071	64-69	Male	Current Smoker	88-103	IB	1:DECEASED	4-8			2		4				4			
+TCGA-58-A46L	69-74	Male	Reformed		IIIA	0:LIVING	4-8				14	7			3	7	1	23	
+TCGA-77-8143	74-80	Male	Reformed <=15	29-44	IIIA	1:DECEASED	4-8					4				5	1		
+TCGA-91-6830	64-69	Female	Reformed <=15	0-15	IIA	0:LIVING	8-13												1
+TCGA-50-6595	69-74	Female	Reformed >15		IIIA	1:DECEASED	0-4		2				2		4		1		
+TCGA-56-7222	59-64	Male	Current Smoker	15-29		0:LIVING	8-13	4		4	20	10				10	1	35	
+TCGA-39-5028	74-80	Male	Reformed >15	29-44	IIIA	1:DECEASED	4-8		2		9		2		3		1		
+TCGA-60-2725	69-74	Male	Reformed >15	44-59	IB	0:LIVING	4-8		2	2	9		2		3		1	14	
+TCGA-78-7146	69-74	Female	Reformed <=15	0-15	IIIA	1:DECEASED	8-13				14	7	3				1	23	
+TCGA-85-A5B5	54-59	Male	Reformed <=15	15-29	IA	0:LIVING	8-13		2			9		2		8	1		
+TCGA-S2-AA1A	64-69	Female	Reformed >15	88-103	IA	0:LIVING	0-4	3					2						
+TCGA-85-A53L	59-64	Male	Reformed <=15	29-44	IIA	0:LIVING	4-8	3									1	15	
+TCGA-05-4403	74-80	Male	Reformed >15		IB	0:LIVING	0-4				9							14	
+TCGA-73-4666	48-54	Female	Reformed <=15	0-15	IV	0:LIVING	8-13		2	4							1		
+TCGA-85-8351	69-74	Male	Current Smoker	59-74	IIA	0:LIVING	4-8				10						1		
+LUAD-S01331		Male	Reformed	29-44	IIIA		4-8						3	3			1	19	
+TCGA-60-2724	43-48	Male	Reformed <=15	59-74	IIIA	0:LIVING	8-13	4		3	14				5		1	23	
+TCGA-MN-A4N5	59-64	Male	Reformed <=15		IA	0:LIVING	13-17	7			23	8	3			12	1	35	1
+TCGA-22-5492	69-74	Female	Reformed <=15	44-59	IIIA	1:DECEASED	4-8		3			6	5		8		1		
+TCGA-95-7948	38-43	Female	Reformed >15	0-15	IB	0:LIVING	4-8					4						12	
+TCGA-44-A47F	69-74	Male	Reformed >15	15-29	IIB	0:LIVING	0-4				6			1		3			
+TCGA-34-8456	69-74	Female	Reformed	15-29	IIA	0:LIVING	0-4							1					
+LUAD-S01473		Male	Reformed	88-103	IB		4-8				12						1	20	
+TCGA-55-A48X	59-64	Female	Reformed <=15	29-44	IIA	0:LIVING	8-13	4								12	1	27	
+TCGA-98-A53A	69-74	Male	Current Smoker	74-88	IB	0:LIVING	8-13			3		6			4		1	25	1
+TCGA-50-5068	59-64	Female			IIB	1:DECEASED	0-4										1		
+TCGA-43-8116	69-74	Male	Current Smoker	29-44	IA	0:LIVING	8-13			2		8		2	5		1	30	
+TCGA-56-8304	69-74	Female	Current Smoker	44-59	IA	0:LIVING	4-8				11					7	1		
+TCGA-55-A491	80-85	Female	Reformed >15	44-59	IA	0:LIVING	8-13				17		3				1	25	
+TCGA-43-2581	43-48	Female	Current Smoker	29-44	IIIA	0:LIVING	21-25				28	10				14			
+TCGA-55-A494	59-64	Female	Reformed >15	0-15	IB	0:LIVING	4-8					5		2					
+TCGA-39-5039	74-80	Male	Reformed >15	59-74	IIA	1:DECEASED	4-8					5			3		1		
+TCGA-49-AAR4	48-54	Male	Current Smoker	29-44	IIIA	1:DECEASED	17-21	8			26	10	4		7	15		46	1
+TCGA-50-5936	54-59	Male			IIIA	1:DECEASED	0-4												1
+TCGA-37-4135	64-69	Male	Reformed <=15	44-59	IB	0:LIVING	8-13	3			13						1		
+TCGA-44-6148	59-64	Male	Reformed >15	59-74	IA	0:LIVING	0-4				2								
+TCGA-85-A4CN	54-59	Female	Reformed <=15		IIB	0:LIVING	4-8				10	5	2				1	16	1
+TCGA-86-7714	59-64	Female	Current Smoker	29-44	IIIA	0:LIVING	0-4	2										10	
+TCGA-86-8054	59-64	Male	Current Smoker	0-15	IIB	0:LIVING	4-8	3			15	8		2		7			
+TCGA-56-5897	69-74	Male	Reformed >15		IA	0:LIVING	0-4			2						5	1		
+LUAD-NYU848		Female	Never Smoke		IA		0-4							1					
+TCGA-22-5489	59-64	Male	Reformed <=15	59-74	IA	1:DECEASED	4-8	3				7				5	1		1
+TCGA-50-5944	64-69	Female			IA	0:LIVING	0-4										1		
+LUAD_E01166		Female	Reformed	29-44	IB		4-8										1	12	
+TCGA-18-3419	69-74	Male	Reformed <=15	44-59	IIB	0:LIVING	8-13	4				9	3	2	7		1	32	
+TCGA-77-8136	69-74	Female	Current Smoker	132-147	IIB	1:DECEASED	13-17			2						7		35	
+TCGA-60-2714	64-69	Female	Reformed <=15	88-103	IIB	0:LIVING	21-25	11			35	9			6	16		50	
+LUAD-S01346		Male	Current Smoker	29-44	IIB		8-13	4			25	7			5		1	32	
+TCGA-55-8507	48-54	Male	Current Smoker	118-132	IA	0:LIVING	25-29				32	25				13		56	
+TCGA-18-3414	69-74	Male	Reformed <=15	15-29	IV	1:DECEASED	8-13	5		2	15	5		2	5	8	1	29	
+TCGA-18-4086	59-64	Male	Reformed <=15	29-44	IB	1:DECEASED	4-8		2		9				4	4	1		
+TCGA-NJ-A4YI	85-90	Female	Reformed >15	0-15	IIIA	1:DECEASED	8-13	5	2		22			2		11			
+TCGA-98-8020	54-59	Female	Never Smoke		IIIA	1:DECEASED	0-4				7	3			3		1		
+TCGA-55-1596	54-59	Male	Current Smoker	44-59	IIB	0:LIVING	4-8				10	4					1	20	
+TCGA-66-2759	64-69	Male	Reformed >15	15-29	IIIA	0:LIVING	8-13	8			22	7	3	2		7	1	33	
+TCGA-NK-A5CX	69-74	Male	Reformed <=15	29-44	IIA	0:LIVING	4-8	3	2								1	15	
+TCGA-86-A4JF	54-59	Male	Reformed <=15		IIB	0:LIVING	38-42	12	5	6	51		7		10	16		89	
+TCGA-55-6969	48-54	Male	Reformed <=15		IB	0:LIVING	13-17		2		21	8	3	2		7	1		1
+TCGA-22-5471	74-80	Male	Reformed <=15	44-59	IB	0:LIVING	4-8					6			4	7	1	28	
+LUAD-NYU1142		Male	Never Smoke		IA		0-4	2			7							7	
+TCGA-46-3765	59-64	Female	Current Smoker		IA	0:LIVING	4-8	3	2						5		1		1
+TCGA-66-2744	69-74	Male	Reformed <=15	59-74	IIB	0:LIVING	4-8	4			11		2				1		
+TCGA-66-2787	54-59	Male	Reformed <=15	29-44	IA	0:LIVING	13-17		2		23	9				11	1		
+TCGA-86-8075	64-69	Female	Never Smoke		IB	0:LIVING	0-4		1		5	2					1	7	
+LUAD-CHTN-3090416		Male					4-8				9	5		2			1	18	
+TCGA-44-8119	69-74	Male	Current Smoker	44-59	IIB	0:LIVING	17-21				27	14		2		11		49	1
+TCGA-69-8254	85-90	Male	Reformed >15	29-44		0:LIVING	0-4									3			
+LUAD-RT-S01699		Male	Current Smoker	29-44	IIIA		13-17	6	2	5	19	6			9	8	1		
+TCGA-55-7283	74-80	Female	Reformed >15	0-15	IIIA	0:LIVING	4-8	4	2		12	6	3		5	5	1		1
+TCGA-55-6712	69-74	Male	Reformed <=15		IIA	0:LIVING	4-8				10						1		
+TCGA-43-8115	69-74	Female	Reformed <=15	44-59	IIA	0:LIVING	4-8	5	2		15	4	3				1	18	
+TCGA-38-6178	69-74	Female	Never Smoke		IIIA	0:LIVING	0-4		2		6		2		3		1		
+TCGA-55-A48Y	64-69	Male	Current Smoker	44-59	IIA	0:LIVING	8-13				14				4				1
+TCGA-97-A4M5	80-85	Male	Reformed >15	0-15	IA	0:LIVING	4-8									4			1
+LUAD-S01345		Male	Reformed	0-15	IB		8-13			2	18		3		4		1	27	1
+TCGA-90-A4EE	48-54	Male	Current Smoker	59-74	IIA	0:LIVING	8-13			3	15			2		6	1		
+TCGA-J1-A4AH	69-74	Male	Reformed <=15	88-103	IIA	0:LIVING	4-8		2						3		1		
+TCGA-75-6203		Female	Never Smoke		IIIA	0:LIVING	0-4				3								
+TCGA-44-6779	48-54	Female	Reformed <=15	15-29	IIB	1:DECEASED	0-4				7				3	4	1	11	
+TCGA-44-2656	59-64	Male	Reformed <=15	15-29	IB	0:LIVING	25-29	7			41	19		3		18		58	
+TCGA-44-7661	64-69	Female	Reformed >15	15-29	IB	0:LIVING	4-8					7				10	1	25	
+TCGA-64-1679	54-59	Female	Current Smoker	29-44	IIIA	0:LIVING	13-17					7				10	1	34	
+TCGA-97-8179	69-74	Male	Reformed >15	59-74	IA	0:LIVING	4-8						2			4	1	15	
+TCGA-66-2765	59-64	Male	Reformed <=15	103-118	IB	0:LIVING	0-4			2	6						1		
+TCGA-75-5146		Male	Reformed >15		IB	0:LIVING	4-8	3									1	20	1
+TCGA-38-A44F	80-85	Male	Reformed >15	0-15	IB	0:LIVING	0-4			1								4	
+TCGA-NC-A5HQ	69-74	Male	Current Smoker		IIIA	1:DECEASED	8-13	3			18	5					1	27	
+TCGA-55-8097	59-64	Female	Reformed <=15	29-44	IA	0:LIVING	0-4				11	4						17	
+TCGA-66-2770	74-80	Male	Reformed >15	15-29	IB	0:LIVING	4-8	3	2			5	3		3		1		
+TCGA-33-A4WN	59-64	Male	Current Smoker	59-74	IB	1:DECEASED	4-8	3	3		19	5			3		1		1
+TCGA-44-2657	69-74	Female	Reformed <=15	15-29	IB	0:LIVING	8-13			2	20	6		2			1	29	1
+TCGA-66-2794	59-64	Male	Reformed <=15	88-103	IIIB	0:LIVING	4-8						2				1		1
+TCGA-50-5045	54-59	Female			IA	1:DECEASED	8-13			2	21	8	3	2	4		1		1
+TCGA-60-2710	64-69	Female	Reformed <=15	59-74	IIA	0:LIVING	4-8			2	15						1	23	
+TCGA-38-4625	64-69	Female	Current Smoker	44-59	IB	0:LIVING	13-17				36	13		2				44	2
+TCGA-NJ-A55R	64-69	Male	Reformed >15	0-15	IA	0:LIVING	4-8				14	6		2		10		22	1
+TCGA-97-8171	80-85	Male	Current Smoker	59-74	IV	0:LIVING	0-4				9	3							
+TCGA-95-A4VK	69-74	Female	Reformed >15	44-59	IIIA	0:LIVING	4-8					6				5		17	
+TCGA-46-3768	54-59	Male	Reformed <=15		IIIA	1:DECEASED	4-8	3		3				2		5	1		1
+TCGA-91-6828	69-74	Male	Reformed >15		IA	0:LIVING	8-13	4	2					2		9			
+TCGA-77-A5G8	69-74	Male	Reformed <=15	88-103	IIB	0:LIVING	4-8	3						2	4	5	1		1
+TCGA-NJ-A4YG	64-69	Male	Reformed <=15	103-118	IB	0:LIVING	4-8									5			
+TCGA-77-8131	69-74	Male	Reformed <=15	59-74	IB	1:DECEASED	0-4				6				3	3	1	8	
+TCGA-91-6847	59-64	Female	Reformed >15		IB	0:LIVING	0-4		2		8						1		
+TCGA-62-A46S	69-74	Male	Reformed <=15	29-44	IB	1:DECEASED	0-4									6			
+TCGA-85-8288	69-74	Male	Current Smoker	44-59	IIA	0:LIVING	4-8			3	13			2			1		
+TCGA-21-1077	59-64	Male	Reformed <=15	44-59	IIB	1:DECEASED	4-8								4		1		
+TCGA-39-5019	69-74	Male	Reformed >15	29-44	IB	0:LIVING	4-8		2		10					6	1	12	
+TCGA-64-5781	54-59	Female	Reformed <=15	15-29	IB	0:LIVING	29-34	10			45	12		3		24		73	
+TCGA-22-4595	54-59	Male	Current Smoker	29-44	IIIA	1:DECEASED	8-13			3	17		3	2	5	9	1	23	
+LUAD-S01356		Male	Reformed	15-29	IB		13-17		2		21	8		3	7	9	2	42	
+TCGA-95-7562	69-74	Male	Reformed >15	0-15	IIA	1:DECEASED	8-13	4	3			12				11	1	32	
+TCGA-56-8624	80-85	Male	Reformed >15	15-29	IIB	0:LIVING	0-4		2								1		
+TCGA-NJ-A7XG	48-54	Male	Reformed >15		IIIA	0:LIVING	0-4			1									
+TCGA-22-4609	80-85	Male	Current Smoker	74-88	IA	1:DECEASED	4-8								4		1		
+TCGA-NC-A5HN	74-80	Male	Reformed <=15	88-103	IIA	0:LIVING	13-17			4	30	12							
+TCGA-64-5815	69-74	Male	Reformed >15	29-44	IIB	0:LIVING	4-8					4			3	4			
+TCGA-44-5645	59-64	Female	Reformed >15	0-15	IA	0:LIVING	0-4		2		7		2		2		1		
+TCGA-22-5474	69-74	Male	Reformed <=15	44-59	IB	1:DECEASED	0-4				9				2		1	14	
+LUAD-RT-S01709		Female	Current Smoker	44-59	IV		4-8					6	3			6	1		
+TCGA-85-8582	48-54	Male	Current Smoker	29-44	IA	0:LIVING	8-13	5	2		16	9	4			10	1		1
+TCGA-63-A5ML	64-69	Male	Reformed <=15	59-74	IB	0:LIVING	4-8	3			15						1		
+TCGA-55-8621	74-80	Female	Reformed <=15	29-44	IA	0:LIVING	0-4						2		3		1		1
+TCGA-68-7756	80-85	Male	Reformed >15	15-29	IIIA	0:LIVING	0-4								2				
+TCGA-J2-8194	64-69	Female	Reformed >15	15-29	IIB	0:LIVING	4-8				10	5							
+TCGA-60-2695	69-74	Female	Reformed >15	59-74	IB	0:LIVING	4-8									5	1		
+TCGA-55-A490	74-80	Male	Reformed >15	29-44	IIA	0:LIVING	38-42	10	6	6	51	19			8	20		84	
+TCGA-44-6147	64-69	Female	Reformed >15		IA	0:LIVING	4-8	3			11			2			1		
+TCGA-44-6778	59-64	Male	Reformed <=15	15-29	IA	0:LIVING	8-13	7			16	6				8	1		
+TCGA-77-6843	69-74	Male	Current Smoker	29-44	IIA	1:DECEASED	4-8		2		11	4			3	5	1		
+TCGA-97-A4M3	64-69	Female	Reformed >15	29-44	IA	0:LIVING	4-8				12	6		2				20	
+TCGA-77-A5GH	80-85	Male	Reformed >15	0-15	IB	0:LIVING	8-13				15					6	1	24	
+TCGA-44-5643	48-54	Male	Current Smoker	15-29	IIIA	0:LIVING	0-4										1	17	
+TCGA-78-7158	59-64	Female	Reformed <=15	0-15	IIIB	1:DECEASED	4-8					5	2						
+TCGA-62-8402	69-74	Female	Never Smoke		IIIA	0:LIVING	0-4		1		7					2	1		
+TCGA-98-8023	69-74	Male	Current Smoker	74-88	IIIA	0:LIVING	4-8										1		
+TCGA-58-8393	64-69	Female	Current Smoker	0-15	IB	0:LIVING	8-13				18		5		4		1	26	
+TCGA-93-8067	74-80	Male	Reformed <=15	15-29	IB	0:LIVING	13-17		2	3	28		5	2	8		1	38	1
+TCGA-NK-A5CR	74-80	Male	Reformed >15	29-44	IB	0:LIVING	8-13		2					3	4	6	1	21	
+TCGA-94-7557	69-74	Male	Current Smoker		IB	1:DECEASED	0-4								2		1		
+TCGA-55-6971	59-64	Female	Reformed <=15	59-74	IB	0:LIVING	0-4				6								
+TCGA-49-AARE	48-54	Female	Reformed <=15	15-29	IA	1:DECEASED	34-38	13	3		43	18			11	18		80	
+LUAD-RT-S01700		Female	Current Smoker	15-29	IA		4-8										1		
+TCGA-55-7281	69-74	Female	Reformed <=15	15-29	IA	0:LIVING	13-17				23	9		2	5	9			
+TCGA-56-8082	80-85	Female	Reformed >15		IIA	0:LIVING	4-8			2	18	4		2			1	23	
+LUAD-S01381		Male	Reformed	59-74	IB		4-8			2	12	7							1
+TCGA-55-A492	69-74	Female	Reformed >15	29-44	IA	0:LIVING	8-13	3											
+TCGA-75-5125		Male	Reformed >15	15-29	IIB	0:LIVING	4-8		2		12						1	16	
+TCGA-O1-A52J	69-74	Female	Reformed >15	44-59	IA	1:DECEASED	4-8					6					1		
+TCGA-05-4415	54-59	Male	Reformed <=15	15-29	IIIB	1:DECEASED	4-8	3	2			4	3			6	1		
+TCGA-56-8622	64-69	Male	Reformed >15	29-44	IB	0:LIVING	4-8				12	4					1		
+TCGA-J2-8192	64-69	Female	Never Smoke		IIA	0:LIVING	0-4												1
+LUAD-F00018		Female	Reformed	29-44	IB		8-13	4				6					1	23	1
+TCGA-49-4488	69-74	Female	Reformed >15		IA	1:DECEASED	8-13	4			14						1	25	1
+TCGA-85-7843	48-54	Male	Current Smoker	29-44	IIA	0:LIVING	4-8			2	14						1		
+TCGA-22-5483	69-74	Male	Reformed <=15	44-59	IIA	1:DECEASED	4-8				11				3	5	1		
+TCGA-50-7109	59-64	Male	Current Smoker	118-132	IA	0:LIVING	4-8					4		2		5			
+TCGA-77-6845	64-69	Male	Reformed <=15	44-59	IIB	1:DECEASED	4-8	3	2	2						5	1	21	1
+TCGA-55-8514	69-74	Female	Reformed <=15	15-29	IB	0:LIVING	4-8			3	14	5	5			8	1		
+LUAD-S01304		Male	Reformed	88-103	IIB		0-4	3									1		
+TCGA-77-8008	64-69	Male	Reformed <=15	59-74	IB	1:DECEASED	4-8	3			10	4			3		1		
+TCGA-62-A470	80-85	Male	Reformed >15	29-44	IB	1:DECEASED	0-4	3										11	
+TCGA-38-4627	59-64	Female	Reformed <=15		IIA	1:DECEASED	0-4					2							
+TCGA-37-A5EL							8-13	4	2		19	6			4	8	1		
+TCGA-55-8208	69-74	Female	Current Smoker	44-59	IA	0:LIVING	13-17	7	3			6			8		1		
+TCGA-44-5644	48-54	Female	Current Smoker	15-29	IB	0:LIVING	25-29		3		40	14			9	12			
+TCGA-85-A4JB	69-74	Male	Current Smoker	15-29	IIB	0:LIVING	13-17				23	10	3		7	11	1	37	
+TCGA-49-AARN	54-59	Female	Reformed		IA	1:DECEASED	29-34	8	3	5	43	21		3	8			79	
+TCGA-22-0940	69-74	Male	Reformed >15	15-29	IIA	1:DECEASED	4-8		2		15	5	2				1		
+TCGA-50-6590	69-74	Female	Reformed <=15	44-59	IB	1:DECEASED	25-29	11		5	39	13		3	7			53	
+TCGA-37-4141	64-69	Female	Never Smoke		IA	0:LIVING	8-13	4				7		2		6	1		
+TCGA-73-4670	64-69	Female	Reformed <=15	29-44	IV	0:LIVING	8-13	4	2		14	6					1		1
+TCGA-05-4420	38-43	Male	Current Smoker	29-44	IB	0:LIVING	8-13				19	5					1	22	
+TCGA-33-AASD	80-85	Male	Current Smoker	74-88	IA	1:DECEASED	8-13			3	21	9				9	1		1
+TCGA-95-7039	54-59	Female	Current Smoker	29-44	IIB	0:LIVING	34-38	10			46	23	6	3		21		84	
+TCGA-44-7659	69-74	Male	Current Smoker	29-44	IA	0:LIVING	4-8			2			2			5		15	1
+TCGA-86-8674	48-54	Male	Reformed <=15	29-44	IIA	0:LIVING	8-13				15	6			5	6			
+TCGA-05-4250	74-80	Female	Reformed <=15	44-59	IIIA	1:DECEASED	8-13							2	4			25	
+TCGA-55-8090	80-85	Male	Current Smoker		IA	0:LIVING	0-4				8								
+TCGA-85-8481	69-74	Male	Reformed <=15	74-88	IIB	0:LIVING	8-13	4						2			1		1
+TCGA-43-8118	54-59	Female	Current Smoker	15-29	IA	1:DECEASED	17-21	6		5	33				6			43	
+TCGA-78-8662	48-54	Female	Current Smoker	44-59	IB	1:DECEASED	29-34	7			44	14			8	18		59	
+TCGA-98-A53I	59-64	Male	Reformed <=15	59-74	IIA	0:LIVING	8-13	4	2		18	7			5	8	1	29	
+TCGA-68-7757	69-74	Male	Reformed <=15	15-29	IA	0:LIVING	8-13	4		3	18						1	30	
+LUAD-F00368		Female					17-21				26			2		15		46	
+TCGA-4B-A93V	48-54	Female	Reformed <=15	29-44	IA	0:LIVING	0-4				12	3	2		4	4	1	12	
+TCGA-97-7938	74-80	Female	Reformed >15	29-44	IA	1:DECEASED	8-13			6	17	8			4	6	1	25	
+TCGA-39-5035	69-74	Female	Reformed <=15	44-59	IA	0:LIVING	4-8					5	2		3		1		
+TCGA-NK-A5CT	69-74	Male	Reformed >15	74-88	IA	0:LIVING	8-13				23	6	3	2		6	1	26	
+TCGA-38-4629	64-69	Male	Reformed <=15	88-103	IIB	1:DECEASED	4-8				15	6				6	1		
+TCGA-55-8206	54-59	Male	Never Smoke		IA	0:LIVING	0-4									2			
+TCGA-77-8007	64-69	Male	Current Smoker	88-103	IIB	1:DECEASED	0-4										1		
+TCGA-55-7574	59-64	Female	Reformed <=15	0-15	IB	0:LIVING	4-8	3			14				3		1		
+TCGA-MP-A4TC	74-80	Male	Reformed >15	118-132	IIIA	1:DECEASED	4-8					7		3	4		1		1
+TCGA-34-5928	80-85	Female	Reformed >15	29-44	IIB	0:LIVING	8-13	5	2	3	18					8	1	34	
+TCGA-66-2783	64-69	Male	Reformed <=15	59-74	IIIB	0:LIVING	4-8				15								
+TCGA-49-4507	69-74	Female	Reformed <=15	74-88	IIIA	1:DECEASED	4-8	4			13							16	
+LUAD-NYU796		Male	Never Smoke		IA		0-4			1		2							
+TCGA-95-7567	59-64	Male	Reformed <=15		IIB	0:LIVING	25-29	7			42	15	8		8	17		56	
+TCGA-37-3792	64-69	Male	Never Smoke		IB	0:LIVING	25-29	6		3	36	18	5			17		52	
+TCGA-78-7152	64-69	Male	Reformed <=15	29-44	IB	0:LIVING	4-8	3		2	14	4				6		18	
+TCGA-43-3920	69-74	Male	Reformed <=15	44-59	IB	0:LIVING	4-8				19						1	22	1
+TCGA-18-3416	80-85	Male	Reformed >15	29-44	IIB	0:LIVING	8-13			2	18	7		2			1		1
+TCGA-50-5049	69-74	Male			IA	0:LIVING	25-29	9		3	39	20				12		59	
+LUAD-RT-S01852		Male		15-29			0-4	2			7		2			6		11	
+TCGA-50-5051	38-43	Female	Reformed <=15	29-44	IIIA	0:LIVING	0-4						2			4		15	
+TCGA-56-8628	74-80	Male	Reformed <=15		IA	0:LIVING	8-13	5				9					1		
+TCGA-50-5072	69-74	Male	Reformed >15	15-29	IIIA	0:LIVING	4-8									5		14	
+LUAD_E01319		Female	Reformed	0-15	IB		0-4	2	2	1				1					
+TCGA-98-8021	74-80	Female	Reformed <=15	59-74	IA	0:LIVING	29-34	8		5	46	11			10			77	
+TCGA-91-6848	59-64	Male	Reformed <=15		IIIA	0:LIVING	13-17			3	25	14			7	13		45	1
+TCGA-64-1678	69-74	Female	Reformed >15	15-29	IIA	0:LIVING	8-13				22	6	3	2		8	1	30	1
+TCGA-91-8497	74-80	Female	Never Smoke		IA	0:LIVING	0-4						3						
+TCGA-22-4599	69-74	Female	Current Smoker	15-29	IB	1:DECEASED	8-13		2		17				4		1		1
+TCGA-55-8299	59-64	Female	Reformed <=15	15-29	IA	0:LIVING	8-13				16						1		
+LUAD-E00443		Male	Reformed	29-44	IB		13-17		2		23	7	4	2			1	40	
+LUAD-FH5PJ		Male	Reformed	44-59	IB		4-8	3										23	
+TCGA-18-3417	64-69	Male	Reformed >15	15-29	IV	0:LIVING	8-13					5			5		1		
+TCGA-55-7227	74-80	Male	Reformed >15		IIIA	0:LIVING	4-8					6					1		
+TCGA-35-4123		Male	Reformed <=15	15-29	IA	0:LIVING	4-8				16	5				9	1		
+TCGA-44-2661	64-69	Female	Never Smoke		IA	0:LIVING	0-4								2				
+TCGA-22-4593	74-80	Male	Reformed <=15	29-44	IIA	1:DECEASED	4-8		2		10		2		5	4	1		
+TCGA-85-A50Z	54-59	Male	Current Smoker	44-59	IIA	0:LIVING	8-13	5									1	30	2
+TCGA-22-4607	74-80	Male	Reformed >15	15-29	IB	1:DECEASED	0-4	2	2					1			1		
+TCGA-58-8388	59-64	Male	Current Smoker	74-88	IB	0:LIVING	4-8		2			4					1	16	
+TCGA-86-7711	69-74	Male	Current Smoker	44-59	IIA	0:LIVING	4-8										1	19	
+LUAD-S01482		Female	Current Smoker	59-74	IB		0-4					4				5			
+TCGA-55-A4DF	85-90	Male	Reformed >15	59-74	IA	0:LIVING	21-25				28	10		3	8			43	
+TCGA-21-5787	64-69	Male	Reformed <=15	88-103	IIIA	1:DECEASED	8-13	6			19	10		2		7	1	31	1
+LUAD-CHTN-4090680		Male					0-4	2	2		5			2			1		
+TCGA-75-5126		Female	Reformed <=15	29-44	IIIA	0:LIVING	17-21	8		3	28	8			8	10			
+TCGA-66-2793	64-69	Male	Reformed <=15	103-118	IIIB	1:DECEASED	8-13				22		4	2	4		1	29	
+TCGA-97-8547	74-80	Female	Never Smoke		IIIA	0:LIVING	0-4							1			1	8	
+TCGA-56-8626	59-64	Male	Current Smoker	44-59	IA	0:LIVING	4-8				12			2					1
+TCGA-94-A5I6	59-64	Male	Reformed <=15	74-88	IIB	0:LIVING	4-8	4	2		12	4	2		3	4	1		
+LUAD-B00416		Female		29-44	IIB		25-29	10			43	11			6	13		59	
+TCGA-77-8150	59-64	Male	Current Smoker	44-59	IIIA	1:DECEASED	0-4			2							1	14	
+TCGA-98-A53B	64-69	Male	Current Smoker	29-44	IB	1:DECEASED	4-8				10	6	2				1	17	1
+TCGA-63-A5MT	69-74	Male	Reformed <=15	88-103	IIB	0:LIVING	4-8	3	2		17		3		3		1		1
+TCGA-68-A59J	69-74	Female	Reformed <=15	44-59	IB	0:LIVING	8-13		2	2	23	6			5		1		1
+LUAD-RT-S01774		Female	Current Smoker	29-44	IB		8-13		2					2			1		
+LUAD-B01246		Female			IIIA		17-21	5			25	13		2				50	1
+TCGA-56-A4BY	64-69	Male	Reformed <=15	59-74	IB	0:LIVING	0-4	3								4	1		
+TCGA-85-8355	59-64	Male	Never Smoke		IA	0:LIVING	4-8		3			8			5		1	24	
+TCGA-22-4594	59-64	Female	Reformed <=15	29-44	IIIA	1:DECEASED	8-13	4				9				7	1		
+TCGA-53-7813	48-54	Female	Reformed <=15	29-44	IIIB	0:LIVING	4-8	3				8	2	2					
+TCGA-77-6844	69-74	Male	Reformed <=15	44-59	IIIA	1:DECEASED	4-8	3							4		1	17	2
+TCGA-78-8660	64-69	Male	Reformed <=15	0-15	IIB	1:DECEASED	4-8	3		3	14	8				7	1		
+TCGA-NC-A5HJ	59-64	Male	Reformed <=15	74-88	IIB	1:DECEASED	8-13			2	22	7		3		8		28	1
+TCGA-44-6776	59-64	Female	Reformed <=15	44-59	IA	0:LIVING	4-8				10	6						15	
+TCGA-95-7043	59-64	Female	Reformed <=15	29-44	IA	0:LIVING	29-34	8			38	16				26		73	
+TCGA-44-A47A	74-80	Female	Reformed <=15	74-88	IB	0:LIVING	4-8				16	4	4					18	
+LUAD-B01102		Male	Never Smoke		IIIA		0-4		2						3		1		
+TCGA-33-4566	38-43	Male	Current Smoker	15-29	IB	1:DECEASED	38-42				40	20		3		20		71	2
+TCGA-J2-A4AD	59-64	Female	Current Smoker	118-132	IA	0:LIVING	8-13			2	18	7	3		5	7	1	27	1
+TCGA-85-6561	64-69	Male	Reformed <=15	29-44	IB	0:LIVING	4-8				13	6	3		5		1		
+TCGA-77-6842	74-80	Male	Reformed <=15	15-29	IIB	1:DECEASED	8-13			2				2		11	1		
+LUAD-S01474		Male	Reformed	29-44	IB		4-8				12		2					13	1
+TCGA-44-7670	43-48	Female	Current Smoker	29-44	IIA	0:LIVING	29-34	8			43	14			10	12		68	
+TCGA-85-8664	69-74	Male	Current Smoker	59-74	IIB	0:LIVING	4-8										1	18	
+TCGA-85-7696	59-64	Male	Reformed <=15	29-44	IA	0:LIVING	4-8			2				2	5		1		
+TCGA-22-4604	69-74	Male	Current Smoker	44-59	IIA	1:DECEASED	4-8	4			13					7	1	23	1
+TCGA-97-7941	69-74	Female	Reformed >15	15-29	IA	0:LIVING	0-4				6		2			4		10	1
+TCGA-18-5592	54-59	Male	Reformed >15	29-44	IIB	0:LIVING	8-13				21	10	4		5		1	31	
+TCGA-22-5481	69-74	Female	Reformed <=15	74-88	IIB	1:DECEASED	8-13		2	2		7					1		
